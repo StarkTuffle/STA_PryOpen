@@ -1,0 +1,150 @@
+Sandbox_DE = {
+    Sandbox_STA_PryOpen = "ST Additions - Pry Open"
+
+    Sandbox_STA_PryOpen_PryEnablePity = "Aktiviere Mitleidssystem"
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "Schalten Sie um, ob das Aufhebeln bei aufeinanderfolgenden Fehlschlägen einfacher wird. (1% pro Fehlschlag, max. 15%)"
+
+    Sandbox_STA_PryOpen_PryChanceBase = "Basis Chance %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "Basis Chance ohne Boni.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "Stärke - Chance pro Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "Erfolgschance pro Stärke-Level.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "Tischlerei - Chance pro Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "Erfolgschance pro Tischlerei-Level (Gilt für einfache Türen und Fenster).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "Schmieden - Chance pro Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "Erfolgschance pro Schmieden-Level (Gilt für Sicherheitstüren und Garagentore).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "KFZ-Mechanik - Chance pro Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "Erfolgschance pro KFZ-Mechanik -Level (Gilt für Fahrzeugtüren und Kofferraumklappen).",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "Einbrecher Bonus Chance %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "Erfolgsbonus für Einbrecher.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "Zeitbonus für Flink Skill",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "Zeitersparnis pro Level des Flink Skills.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDexterous = "Zeitbonus für Geschickt Skill",
+    Sandbox_STA_PryOpen_PryBonusTraitDexterous_tooltip = "Zeitersparnis pro Level des Geschickt Skills.",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "Aktiviere Türen aufbrechen",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "Aktiviert die Möglichkeit Gebäudetüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "Mindeststärke für Türen",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "Das Mindestlevel für Stärke um Gebäudetüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "Erfolgschancen-Multiplikator für Gebäudetüren %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "Tür Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "Aktiviere Fenster aufbrechen",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "Aktiviert die Möglichkeit Fenster aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "Mindeststärke für Fenster",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "Das Mindestlevel für Stärke um Fenster aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "Erfolgschancen-Multiplikator für Fenster %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "Fenster Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "Aktiviere aufbrechen von Garagen",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "Aktiviert die Möglichkeit Garagentore aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "Mindeststärke für Garagentore",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "Das Mindestlevel für Stärke um Garagentore aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "Erfolgschancen-Multiplikator für Garagentore %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "Garagentor Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "Aktiviere aufbrechen von Sicherheitstüren",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "Aktiviert die Möglichkeit Sicherheitstüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "Mindeststärke für Sicherheitstüren",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "Das Mindestlevel für Stärke um Sicherheitstüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "Erfolgschancen-Multiplikator für Sicherheitstüren %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "Sicherheitstür Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "Aktiviere aufbrechen von Fahrzeugtüren",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "Aktiviert die Möglichkeit Fahrzeugtüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "Mindeststärke für Fahrzeugtür Öffnung",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "Das Mindestlevel für Stärke um Fahrzeugtüren aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "Erfolgschancen-Multiplikator für Fahrzeugtüren %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "Fahrzeugtür Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "Aktiviere aufbrechen von Kofferräumen",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "Aktiviert die Möglichkeit Kofferraumklappen aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "Mindeststärke für Kofferraumklappen Öffnung",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "Das Mindestlevel für Stärke um Kofferraumklappen aufzubrechen.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "Erfolgschancen-Multiplikator für Kofferraumklappen %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "Wahrscheinlichkeits-Multiplikator für erfolgreiche Öffnung. (Wird nach Boni angewendet)",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "Kofferraumklappen Öffnungszeit",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "Benötigte Zeit in Sekunden, um einen Aufbrechversuch vorzunehmen.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "Fensterbruch Chance %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "Prozentuale Chance, dass ein Gebäudefenster nach einem missglückten Aufbruchsversuch zerbricht.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "Fahrzeugfensterbruch Chance %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "Prozentuale Chance, dass ein Fahrzeugfenster nach einem missglückten Aufbruchsversuch zerbricht.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "Fahrzeugschloss Zerstörungschance %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "Prozentuale Chance, dass ein Fahrzeugschloss nach einem missglückten Aufbruchsversuch kaputt geht.",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "Verletzungschance %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "Prozentuale Chance, sich bei einem missglückten Aufbruchsversuch die Hand zu verletzen.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitSkin = "????-/Dünnhäutig Verletzungschance %",
+    Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip = "Bonus oder Malus auf das Verletzungsrisiko für die Eigenschaften „Dickhäutig“ oder „Dünnhäutig.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "Verletzung ist ein Kratzer %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "Prozentuale Chance, dass die Verletzung ein Kratzer ist."
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "Verletzung ist ein Schnitt %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "Prozentuale Chance, dass die Verletzung ein Schnitt ist."
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "Verletzung ist eine tiefe Wunde %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "Prozentuale Chance, dass die Verletzung eine tiefe Wunde ist"
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "Aufbruchsgeräusche Radius",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "Wie weit Zombies durch das aufbrechen angelockt werden in Tiles.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "Reduzierung der Aufbruchsgeräusche durch Schleichen",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "Um wieviele Tiles die Aufbruchsgeräusche durch den Skill Schleichen reduziert werden.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "Kein Alarm bei Erfolg"
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "Alarme deaktivieren, nachdem etwas erfolgreich aufgebrochen wurde."
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "Aktiviere erzwungenen Alarm"
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "Fahrzeug-/Gebäudealarme werden aktiviert, wenn die Alarmwahrscheinlichkeit in Prozent erreicht wird (ansonsten werden Alarme nur ausgelöst, wenn die Alarmwahrscheinlichkeit in Prozent erreicht wird UND der Fahrzeug-/Gebäudealarm zuvor aktiviert war)."
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "Alarm Chance %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "Prozentuale Chance, dass bei einem Fehlschlag der Alarm ausgelöst wird.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "Alarmchance reduktion durch Elektronik",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "Reduktion der Wahrscheinlichkeit, dass ein Alarm ausgelöst wird. Pro level des Elektronik Skills.",
+
+    Sandbox_STA_PryOpen_PryToolItems = "Aufbruchswerkzeug Chancen",
+    Sandbox_STA_PryOpen_PryToolItems_tooltip = "Werte für die Basischance von Werkzeugen. <LINE>Min: 0.00 Max: 5.00 <LINE>Im Format 'Base.Item=1.0' <LINE>Mehrere Items mit Semikolon ';' trennen.",
+
+    Sandbox_STA_PryOpen_PryToolTags = "Aufbruchswerkzeuge Tags Chancen",
+    Sandbox_STA_PryOpen_PryToolTags_tooltip = "Werte für die Basischance von Werkzeugen nach Tags. <LINE>Min: 0.00 Max: 5.00 <LINE>Im Format 'base:tag=1.0' <LINE>Mehrere Tags mit Semikolon ';' trennen.",
+}

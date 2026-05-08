@@ -1,0 +1,80 @@
+[ 16/12/2025 ]
+Version 1.16.7
+- Resolved issue with the Pry Open TimedAction and Mod Options for b42.13
+- Added support for chuckleberry's Mod Update and Alert System
+[ ------ ]
+[ Version 1.16.8 ]
+- Moved some files to the 'common' folder
+    ! If you experience issues, please unsubscribe and resubscribe to the mod
+- Added Italiano translation (Thank you ZioMark)
+[ ------ ]
+[ Version 1.17.0 ]
+- Alarms now account for alarm decay
+- Resolved issue with b42.13 Force Alarm Sandbox Option
+[ ------ ]
+[ Version 1.17.1 ]
+- Fixed calculations in b42.13 not applying skill bonuses
+- Fixed alarms triggering on all failures
+[ ------ ]
+[ Version 1.17.2 ]
+- Fixed error when checking for dextrous trait
+[ ------ ]
+[ Version 1.17.3 ]
+- Fixed error when handling alarms in b41
+[ ------ ]
+[ Version 1.17.4 ]
+- Changed poster
+[ ------ ]
+[ Version 1.17.5 ]
+- Added Thai translation (Thank you Hate!)
+[ ------ ]
+[ Version 1.17.6 ]
+- Fixed Sandbox Option booleans returning defaults instead of the set value in 42.14
+[ ------ ]
+[ Version 1.18.0 ]
+- Updated translations for b42.15
+- Added Polish translation (Thank you woziu23)
+[ ------ ]
+[ Version 1.18.1 ]
+- Fixed some garage doors not being recognized as garage doors
+[ ------ ]
+[ Version 1.18.2 ]
+- Fixed translation errors
+- Removed legacy files
+[ ------ ]
+[ Version 1.18.3 ]
+- Added German translation (Thank you RessiX)
+[ ------ ]
+[ Version 1.18.4 ]
+- Fixed German context menu translation
+[ ------ ]
+[ Version 1.18.5 ]
+- Removed some legacy code
+- Removed "Pry Open" option when no crowbar is in inventory
+[ ------ ]
+[ Version 1.19.0 ]
+- Fixed Job Delta progress bar not finishing in b42.17
+- Updated muscle strain to match vanilla digging action
+[ ------ ]
+[ Version 1.19.1 ]
+- Fixed Job Delta progress bar not finishing (for real this time)
+[ ------ ]
+[ Version 1.19.2 ]
+- Added additional translation option
+[ ------ ]
+[ Version 1.19.3 ]
+- Added fix for security doors not unlocking in b42.17
+[ ------ ]
+[ Version 1.19.4 ]
+- Added workaround for security doors not acting correctly when unlocked in b42.17
+- This is caused by a vanilla bug so please leave a note on my post on the TIS bug report forum if you can so we can get it fixed.
+- https://theindiestone.com/forums/index.php?/topic/94433-42170
+[ ------ ]
+[ Version 1.19.5 ]
+- Separated b42.17 workaround from b42.16.3
+- Added Turkish translation (Thank you zangetsu_TR)
+[ ------ ]
+[ Version 1.20.0 ]
+- Updated Security Door Handling functionality
+- Added new sandbox option for choosing how security doors are handled.
+[ ------ ]

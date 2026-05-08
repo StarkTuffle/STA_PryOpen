@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "ต้องใช้ ชะแลง.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "ถูกปิดไว้ โดยตั้งค่าของ sandbox.",
+    "IGUI_STA_PryOpen_RequiresStrength": "ต้องการ พละกำลัง %1.",
+    "IGUI_STA_PryOpen_CantPry": "งัดไม่ได้.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "ไม่มี ประตูรถ หรือ ฝากระโปรงหลังรถ ที่ล็อก.",
+    "IGUI_STA_PryOpen_Chance": "โอกาส: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "โอม จงเปิด.",
+    "IGUI_STA_PryOpen_Success_2": "เปิดได้แล้ว!",
+    "IGUI_STA_PryOpen_Success_3": "นั่นแหละ ได้ละ.",
+    "IGUI_STA_PryOpen_Success_4": "โครตง่าย.",
+    "IGUI_STA_PryOpen_Success_5": "พลังของชะแลง!",
+    "IGUI_STA_PryOpen_Failure_1": "ไม่ได้อะ... มันไม่ขยับเลย.",
+    "IGUI_STA_PryOpen_Failure_2": "ล็อกหนายิ่งกว่าประตูเซฟธนาคารซะอีก.",
+    "IGUI_STA_PryOpen_Failure_3": "ไม่เอาน่า...",
+    "IGUI_STA_PryOpen_Failure_4": "โชคไม่ดีเท่าไหร่รอบนี้.",
+    "IGUI_STA_PryOpen_Failure_5": "บ้าเอ้ยมันไม่ขยับเลย.",
+    "IGUI_STA_PryOpen_Injury_1": "แย่ละมือเจ็บ, ต้องการผ้าพันแผล.",
+    "IGUI_STA_PryOpen_Injury_2": "เอ๊อะ! เจ็บจัง.",
+    "IGUI_STA_PryOpen_Injury_3": "โอ๊ย, เหมือนว่าจะโดนบาดเข้าให้ละ.",
+    "IGUI_STA_PryOpen_Injury_4": "ต้องระวังมากกว่านี้.",
+    "IGUI_STA_PryOpen_Injury_5": "เป็นร้อยแผลเป็นแน่ๆ."
+}

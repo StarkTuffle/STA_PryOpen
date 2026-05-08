@@ -1,0 +1,150 @@
+Sandbox_IT = {
+    Sandbox_STA_PryOpen = "ST Additions - Forzatura",
+
+    Sandbox_STA_PryOpen_PryEnablePity = "Abilita sistema di compensazione",
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "Attiva/disattiva se la forzatura diventa pi� facile dopo fallimenti consecutivi. (Bonus 1% fino al 15%)",
+
+    Sandbox_STA_PryOpen_PryChanceBase = "Successo base %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "Probabilit� base di successo prima dei modificatori.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "Bonus Forza per livello %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "Bonus alla probabilit� di successo per ogni livello di Forza.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "Bonus Falegnameria per livello %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "Bonus alla probabilit� di successo per ogni livello di Falegnameria (solo per porte e finestre standard).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "Bonus Metallurgia per livello %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "Bonus alla probabilit� di successo per ogni livello di Metallurgia (solo per porte di sicurezza e porte del garage).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "Bonus Meccanica per livello %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "Bonus alla probabilit� di successo per ogni livello di Meccanica (solo per porte e bagagliai dei veicoli).",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "Bonus tratto Scassinatore %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "Bonus alla probabilit� di successo per il tratto Scassinatore.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "Riduzione tempo per livello di Agilit�",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "Riduzione del tempo richiesto per ogni livello di Agilit�.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous = "Riduzione tempo tratto Destrezza",
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip = "Riduzione del tempo richiesto per il tratto Destrezza.",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "Abilita forzatura porte",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "Attiva/disattiva la possibilit� per i giocatori di forzare le porte degli edifici.",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "Livello minimo porte",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "Livello minimo di Forza necessario per forzare le porte degli edifici.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "Moltiplicatore probabilit� porte %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "Moltiplicatore della probabilit� di successo per le porte (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "Tempo azione porte",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "Secondi necessari per tentare di forzare le porte degli edifici.",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "Abilita forzatura finestre",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "Attiva/disattiva la possibilit� di forzare le finestre degli edifici.",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "Livello minimo finestre",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "Livello minimo di Forza necessario per forzare le finestre.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "Moltiplicatore probabilit� finestre %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "Moltiplicatore della probabilit� di successo per le finestre (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "Tempo azione finestre",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "Secondi necessari per tentare di forzare le finestre.",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "Abilita forzatura garage",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "Attiva/disattiva la possibilit� di forzare le porte del garage.",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "Livello minimo garage",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "Livello minimo di Forza necessario per forzare le porte del garage.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "Moltiplicatore probabilit� garage %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "Moltiplicatore della probabilit� di successo per i garage (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "Tempo azione garage",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "Secondi necessari per tentare di forzare le porte del garage.",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "Abilita forzatura porte di sicurezza",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "Attiva/disattiva la possibilit� di forzare le porte di sicurezza.",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "Livello minimo sicurezza",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "Livello minimo di Forza necessario per forzare le porte di sicurezza.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "Moltiplicatore probabilit� sicurezza %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "Moltiplicatore della probabilit� di successo per le porte di sicurezza (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "Tempo azione sicurezza",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "Secondi necessari per tentare di forzare le porte di sicurezza.",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "Abilita forzatura veicoli",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "Attiva/disattiva la possibilit� di forzare le porte dei veicoli.",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "Livello minimo veicoli",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "Livello minimo di Forza necessario per forzare le porte dei veicoli.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "Moltiplicatore probabilit� veicoli %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "Moltiplicatore della probabilit� di successo per le porte dei veicoli (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "Tempo azione veicoli",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "Secondi necessari per tentare di forzare le porte dei veicoli.",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "Abilita forzatura bagagliaio",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "Attiva/disattiva la possibilit� di forzare i bagagliai dei veicoli.",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "Livello minimo bagagliaio",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "Livello minimo di Forza necessario per forzare i bagagliai dei veicoli.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "Moltiplicatore probabilit� bagagliaio %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "Moltiplicatore della probabilit� di successo per i bagagliai (applicato dopo i bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "Tempo azione bagagliaio",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "Secondi necessari per tentare di forzare i bagagliai.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "Probabilit� rottura finestra %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "Probabilit� percentuale che una finestra si rompa dopo un fallimento.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "Probabilit� rottura finestrino %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "Probabilit� percentuale che un finestrino del veicolo si rompa dopo un fallimento.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "Probabilit� rottura serratura %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "Probabilit� percentuale che la serratura del veicolo si rompa dopo un fallimento.",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "Probabilit� ferita %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "Probabilit� percentuale di subire una ferita alla mano dopo un fallimento.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitSkin = "Bonus ferite pelle spessa/sottile %",
+    Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip = "Bonus o penalit� alla probabilit� di ferita per i tratti Pelle Spessa o Pelle Sottile.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "Ferita: graffio %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "Probabilit� percentuale che la ferita sia un graffio.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "Ferita: taglio %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "Probabilit� percentuale che la ferita sia un taglio.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "Ferita: ferita profonda %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "Probabilit� percentuale che la ferita sia una ferita profonda.",
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "Raggio rumore forzatura",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "Numero di celle a cui si propaga il rumore del piede di porco attirando gli zombi.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "Riduzione rumore per livello di Furtivit�",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "Numero di celle di riduzione del rumore per ogni livello di Furtivit�.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "Disabilita allarmi dopo successo",
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "Disabilita gli allarmi dopo una forzatura riuscita.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "Abilita allarmi forzati",
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "Attiva allarmi di auto/edifici quando la Probabilit� Allarme % viene attivata.",
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "Probabilit� allarme %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "Probabilit� percentuale che un allarme venga attivato dopo un fallimento.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "Riduzione allarme per livello di Elettricit�",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "Riduzione della probabilit� di allarme per ogni livello di Elettricit�.",
+
+    Sandbox_STA_PryOpen_PryToolItemsList = "Oggetti utilizzabili per forzare",
+    Sandbox_STA_PryOpen_PryToolItemsList_tooltip = "Valori della probabilit� base degli oggetti. <LINE>Min: 0.00 Max: 5.00 <LINE>Formato: 'Base.Item:1.0' <LINE>Separare gli oggetti con ';'",
+
+    Sandbox_STA_PryOpen_PryToolTagsList = "Tag oggetti per forzare",
+    Sandbox_STA_PryOpen_PryToolTagsList_tooltip = "Valori della probabilit� base dei tag. <LINE>Min: 0.00 Max: 5.00 <LINE>Formato: 'base:tag:1.0' <LINE>Separare i tag con ';'",
+}

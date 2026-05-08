@@ -1,0 +1,38 @@
+version=1
+id=3579640010
+title=ST Additions - Pry Open (A Crowbar Mod)
+description=[h1]Unlock a new way to survive in Project Zomboid[/h1]
+description=STA Pry Open lets you use your crowbar to pry open locked doors, windows, and vehicles. Featuring realistic strength checks, injury risks, tool wear, alarms, and skill-based success chances. Bring immersive tension and practicality to every break-in attempt.
+description=[hr][/hr][h2] Features [/h2]
+description=[list][*]Pry open locked doors, windows, and vehicles using a crowbar. (Compatibile with modded crowbars)
+description=[*]Skill-based success rates influenced by Strength, skills, and traits.
+description=[*]Dynamic consequences like hand injuries, alarm triggers, and tool wear.
+description=[*]Supports both context menu and radial interactions for smooth gameplay.
+description=[*]Fully customizable through sandbox settings and mod options.[/list]
+description=[hr][/hr][h2]Feedback and Suggestions[/h2]
+description=If you have any ideas you think would improve the mod? Let me know in the pinned discussion!
+description=[hr][/hr][h2]Bug Reporting[/h2]
+description=If you run into any issues while playing let me know in the pinned discussion.
+description=[hr][/hr][h2] Translations [/h2]
+description=I'm currently expanding translations so players around the world can enjoy it in their own language! If you?d like to help with translating or proofreading, check out the pinned discussion to get involved.
+description=[h3] Currently Available [/h3]
+description=[list][*]English
+description=[*]Spanish
+description=[*]Russian (Thanks to [url=https://steamcommunity.com/id/roma1213]phxntom1213[/url])
+description=[*]Brazilian Portuguese (Thanks to [url=https://steamcommunity.com/id/SIMBAproduz]SIMBAproduz[/url])
+description=[*]Italiano (Thanks to [url=https://steamcommunity.com/id/ZioMark]ZioMark[/url])
+description=[*]Thai (Thanks to [url=https://steamcommunity.com/id/Hate00]Hate[/url])
+description=[*]Polish (Thanks to [url=https://steamcommunity.com/profiles/76561198134301438]woziu23[/url])
+description=[*]German (Thanks to [url=https://steamcommunity.com/id/RessiX]RessiX[/url])
+description=[*]Turkish (Thanks to [url=https://steamcommunity.com/profiles/76561199275317526]zangetsu_TR[/url])[/list]
+description=[hr][/hr][h2] Compatibility [/h2]
+description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
+description=[tr][td]Stable (b41.78)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]Unstable (b42.17)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]OutdatedUnstable (b42.16.3)[/td][td]✅[/td][td]✅[/td][/tr][/table]
+description=
+description=[h3] Show Your Support or Come Say Hello [/h3]
+description=[url=https://discord.gg/sqE9eK4Xav][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/refs/heads/main/PZmodCommBanner3.png[/img][/url]
+description=[img]https://i.imgur.com/XRG7Sqm.gif[/img]
+tags=Build 41;Build 42;QoL;Realistic
+visibility=public

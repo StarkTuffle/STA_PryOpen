@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "Mi serve un piede di porco utilizzabile.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "Disabilitato dalle impostazioni sandbox.",
+    "IGUI_STA_PryOpen_RequiresStrength": "Richiede Forza %1.",
+    "IGUI_STA_PryOpen_CantPry": "Non posso forzare questa cosa.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "Non ci sono porte o bagagliaio del veicolo bloccati qui.",
+    "IGUI_STA_PryOpen_Chance": "Probabilità: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "Apriti sesamo.",
+    "IGUI_STA_PryOpen_Success_2": "Aperto!",
+    "IGUI_STA_PryOpen_Success_3": "Ha funzionato.",
+    "IGUI_STA_PryOpen_Success_4": "Facile come bere un bicchier d'acqua.",
+    "IGUI_STA_PryOpen_Success_5": "Allora funziona questo piede di porco!",
+    "IGUI_STA_PryOpen_Failure_1": "Niente da fare... non si muove.",
+    "IGUI_STA_PryOpen_Failure_2": "Chiuso meglio di un caveau.",
+    "IGUI_STA_PryOpen_Failure_3": "Forza...",
+    "IGUI_STA_PryOpen_Failure_4": "Nessuna fortuna questa volta.",
+    "IGUI_STA_PryOpen_Failure_5": "Questa dannata cosa non si muove.",
+    "IGUI_STA_PryOpen_Injury_1": "Mi sono fatto male alla mano, mi servirà una benda.",
+    "IGUI_STA_PryOpen_Injury_2": "Aia! Che male.",
+    "IGUI_STA_PryOpen_Injury_3": "Porca miseria, credo di essermi tagliato.",
+    "IGUI_STA_PryOpen_Injury_4": "Avrei dovuto stare più attento.",
+    "IGUI_STA_PryOpen_Injury_5": "Questo lascerà il segno."
+}

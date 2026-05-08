@@ -1,0 +1,6 @@
+UI_IT = {
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess = "Abilita messaggi del personaggio",
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip = "Mostra una notifica testuale quando un tentativo di forzatura riesce o fallisce.",
+    UI_STA_PryOpen_Options_VolumeAdjust = "Volume piede di porco",
+    UI_STA_PryOpen_Options_VolumeAdjust_tooltip = "Regola il volume dei suoni durante l'azione di forzatura.",
+}

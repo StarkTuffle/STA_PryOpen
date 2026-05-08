@@ -1,0 +1,4 @@
+UI_RU = {
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess = "Включить озвучивание результатов игроком",
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip = "Включает текстовые уведомления об успешном или неудачном взломе.",
+}

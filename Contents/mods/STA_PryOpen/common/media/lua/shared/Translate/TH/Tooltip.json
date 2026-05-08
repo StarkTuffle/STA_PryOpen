@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "พละกำลัง %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "ต้องการชะแลง.",
+    "Tooltip_STA_PryOpen_chanceInjury": "โอกาสได้รับบาดเจ็บ:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1 เปิดหรือปลดล็อกอยู่แล้ว."
+}

@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Настройки",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "Включить озвучивание результатов игроком",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Включает текстовые уведомления об успешном или неудачном взломе.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Громкость Лом",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Регулирует громкость звуков во время действия «Взлом»."
+}

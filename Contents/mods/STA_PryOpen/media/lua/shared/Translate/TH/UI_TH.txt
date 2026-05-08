@@ -1,0 +1,6 @@
+UI_TH = {
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess = "เปิดใช้งาน ผู้เล่นพูดผลลัพธ์",
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip = "เปิดใช้งาน ตั้งค่าแจ้งเตือนข้อความ เมื่อการพยายามงัด สำเร็จหรือล้มเหลว.",
+    UI_STA_PryOpen_Options_VolumeAdjust = "เสียงชะแลง",
+    UI_STA_PryOpen_Options_VolumeAdjust_tooltip = "ปรับปริมาณเสียง ขณะทำการงัดเพื่อเปิด.",
+}

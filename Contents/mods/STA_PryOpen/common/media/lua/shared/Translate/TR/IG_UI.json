@@ -1,0 +1,23 @@
+{
+"IGUI_STA_PryOpen_NeedCrowbar": "Kullanılabilir bir levye lazım.",
+"IGUI_STA_PryOpen_DisabledBySandbox": "Sandbox ayarları tarafından devre dışı bırakıldı.",
+"IGUI_STA_PryOpen_RequiresStrength": "Gereken Kuvvet: %1.",
+"IGUI_STA_PryOpen_CantPry": "Bunu levye ile açamam.",
+"IGUI_STA_PryOpen_NoLockedVehiclePart": "Burada kilitli bir araç kapısı veya bagajı yok.",
+"IGUI_STA_PryOpen_Chance": "Şans: %%%1",
+"IGUI_STA_PryOpen_Success_1": "Açıl susam açıl.",
+"IGUI_STA_PryOpen_Success_2": "İşte açıldı!",
+"IGUI_STA_PryOpen_Success_3": "İşe yaradı.",
+"IGUI_STA_PryOpen_Success_4": "Çocuk oyuncağı.",
+"IGUI_STA_PryOpen_Success_5": "Levye büyüsü!",
+"IGUI_STA_PryOpen_Failure_1": "Olmadı... yerinden oynamıyor.",
+"IGUI_STA_PryOpen_Failure_2": "Banka kasasından daha sıkı kilitlenmiş.",
+"IGUI_STA_PryOpen_Failure_3": "Hadi ama...",
+"IGUI_STA_PryOpen_Failure_4": "Bu sefer şansım yaver gitmedi.",
+"IGUI_STA_PryOpen_Failure_5": "Lanet şey kımıldamıyor bile.",
+"IGUI_STA_PryOpen_Injury_1": "Elimi patlattım, bir bandaja ihtiyacım olacak.",
+"IGUI_STA_PryOpen_Injury_2": "Ah! Bu acıttı.",
+"IGUI_STA_PryOpen_Injury_3": "Of, sanırım kendimi kestim.",
+"IGUI_STA_PryOpen_Injury_4": "Daha dikkatli olmalıydım.",
+"IGUI_STA_PryOpen_Injury_5": "Bu kesin iz bırakacak."
+}

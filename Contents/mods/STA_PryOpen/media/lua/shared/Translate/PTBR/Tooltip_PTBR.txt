@@ -1,0 +1,6 @@
+Tooltip_PTBR = {
+    Tooltip_STA_PryOpen_ReqStrength = "Força %1/%2.",
+    Tooltip_STA_PryOpen_NeedCrowbar = "Requer um pé de cabra utilizável.",
+    Tooltip_STA_PryOpen_chanceInjury = "Chance de ferimento:",
+    Tooltip_STA_PryOpen_alreadyUnlocked = "%1 já está destrancado ou aberto.",
+}

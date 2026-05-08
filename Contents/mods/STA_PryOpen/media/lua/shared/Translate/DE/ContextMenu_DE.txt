@@ -1,0 +1,24 @@
+ContextMenu_DE = {
+    ContextMenu_STA_PryOpen_Pry = "Aufbrechen von %1"
+    ContextMenu_STA_PryOpen_Window = "Fenster",
+    ContextMenu_STA_PryOpen_Building = "Tür",
+    ContextMenu_STA_PryOpen_Garage = "Garagentor",
+    ContextMenu_STA_PryOpen_Secure = "Sicherheitstür",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%1 %2 %3",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "Fahrzeugtür",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "vordere,",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "mittlere,",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "hintere,",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "hintere",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "Heck",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "linke",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "rechte",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "Tür",
+    ContextMenu_STA_PryOpen_Vehicle_DoorP = "Türen",
+
+    ContextMenu_STA_PryOpen_JobLabel = "Aufbrechen...",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "Brechstange benötigt",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "Nicht Stark genug",
+}

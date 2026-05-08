@@ -1,0 +1,21 @@
+{
+    "ContextMenu_STA_PryOpen_Pry": "Podważ %1",
+    "ContextMenu_STA_PryOpen_Window": "Okno",
+    "ContextMenu_STA_PryOpen_Building": "Drzwi",
+    "ContextMenu_STA_PryOpen_Garage": "Wrota garażowe",
+    "ContextMenu_STA_PryOpen_Secure": "Drzwi zabezpieczone",
+    "ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
+    "ContextMenu_STA_PryOpen_Vehicle_Generic": "Drzwi pojazdu",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Przednie",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "Środkowe",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "Tył",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "Tył",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "Bagażnik",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Left": "Lewe",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "Prawe",
+    "ContextMenu_STA_PryOpen_Vehicle_Door": "Drzwi",
+    "ContextMenu_STA_PryOpen_Vehicle_DoorP": "Drzwi",
+    "ContextMenu_STA_PryOpen_JobLabel": "Podważanie...",
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Potrzebny łom",
+    "ContextMenu_STA_PryOpen_Radial_NoStrength": "Za mało siły"
+}

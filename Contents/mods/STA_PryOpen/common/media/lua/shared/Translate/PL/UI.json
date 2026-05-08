@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Ustawienia",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "Włącz wypowiedzi postaci przy rezultacie podważania",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Włącza powiadomienia tekstowe (wypowiedzi postaci), gdy próba podważenia się powiedzie lub nie powiedzie.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Głośność łomu",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Reguluje głośność dźwięków podczas akcji podważania."
+}

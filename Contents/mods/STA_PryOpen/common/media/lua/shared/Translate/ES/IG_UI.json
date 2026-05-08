@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "Necesito una palanca que se pueda usar.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "Deshabilitado por opciones de mundo abierto.",
+    "IGUI_STA_PryOpen_RequiresStrength": "Requiere fuerza %1.",
+    "IGUI_STA_PryOpen_CantPry": "No puedo hacer eso.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "Aquí no hay puertas de vehículos ni maleteros cerrados..",
+    "IGUI_STA_PryOpen_Chance": "Probabilidad: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "Ábrete sésamo.",
+    "IGUI_STA_PryOpen_Success_2": "¡Lo tengo abierto!",
+    "IGUI_STA_PryOpen_Success_3": "Eso funcionó.",
+    "IGUI_STA_PryOpen_Success_4": "Fácil como un pastel.",
+    "IGUI_STA_PryOpen_Success_5": "¡Magia de palanca!",
+    "IGUI_STA_PryOpen_Failure_1": "No es bueno... no se mueve.",
+    "IGUI_STA_PryOpen_Failure_2": "Cerrado como una bóveda de banco.",
+    "IGUI_STA_PryOpen_Failure_3": "Vamos...",
+    "IGUI_STA_PryOpen_Failure_4": "Esta vez no hubo suerte.",
+    "IGUI_STA_PryOpen_Failure_5": "Maldita cosa no se mueve.",
+    "IGUI_STA_PryOpen_Injury_1": "Me corté la mano, necesitaré una venda.",
+    "IGUI_STA_PryOpen_Injury_2": "¡Ah! Eso dolió.",
+    "IGUI_STA_PryOpen_Injury_3": "Ay, creo que me corté.",
+    "IGUI_STA_PryOpen_Injury_4": "Debería haber sido más cuidadoso.",
+    "IGUI_STA_PryOpen_Injury_5": "Eso dejará una marca."
+}

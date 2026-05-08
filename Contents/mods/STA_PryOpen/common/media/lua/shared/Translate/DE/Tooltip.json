@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "Stärke %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "Benötigt eine Brechstange.",
+    "Tooltip_STA_PryOpen_chanceInjury": "Verletzungswahrscheinlichkeit:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1 ist nicht verschlossen oder bereits geöffnet."
+}

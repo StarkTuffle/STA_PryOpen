@@ -1,0 +1,4 @@
+UI_PTBR = {
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess = "Ativar Falas de Resultado",
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip = "Ativa a opção de mostrar uma notificação em texto quando uma tentativa de arrombar for bem-sucedida ou falhar.",
+}

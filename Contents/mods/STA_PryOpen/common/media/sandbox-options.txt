@@ -1,0 +1,295 @@
+VERSION = 1,
+
+option STA_PryOpen.PryEnablePity
+{
+    type = boolean, default = false,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnablePity,
+}
+
+option STA_PryOpen.PryChanceBase
+{
+    type = double, min = 0.01, max = 1.00, default = 0.25,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceBase,
+}
+
+option STA_PryOpen.PryBonusSkillStrength
+{
+    type = double, min = 0.00, max = 1.00, default = 0.03,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillStrength,
+}
+
+option STA_PryOpen.PryBonusSkillCarpentry
+{
+    type = double, min = 0.00, max = 1.00, default = 0.03,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillCarpentry,
+}
+
+option STA_PryOpen.PryBonusSkillBlacksmith
+{
+    type = double, min = 0.00, max = 1.00, default = 0.03,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillBlacksmith,
+}
+
+option STA_PryOpen.PryBonusSkillMechanics
+{
+    type = double, min = 0.00, max = 1.00, default = 0.03,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillMechanics,
+}
+
+option STA_PryOpen.PryBonusTraitBurglar
+{
+    type = double, min = 0.00, max = 1.00, default = 0.15,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusTraitBurglar,
+}
+
+option STA_PryOpen.PryBonusSkillNimble
+{
+    type = double, min = 0.00, max = 5.00, default = 0.20,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillNimble,
+}
+
+option STA_PryOpen.PryBonusTraitDextrous
+{
+    type = double, min = 0.00, max = 5.00, default = 1.00,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusTraitDextrous,
+}
+
+option STA_PryOpen.PryEnableBuilding
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableBuilding,
+}
+
+option STA_PryOpen.PryLevelBuilding
+{
+    type = integer, min = 0, max = 10, default = 3,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelBuilding,
+}
+
+option STA_PryOpen.PryChanceMultiplierBuilding
+{
+    type = double, min = 0.01, max = 5.00, default = 1.00,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierBuilding,
+}
+
+option STA_PryOpen.PryTimeBuilding
+{
+    type = integer, min = 1, max = 30, default = 8,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeBuilding,
+}
+
+option STA_PryOpen.PryEnableWindow
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableWindow,
+}
+
+option STA_PryOpen.PryLevelWindow
+{
+    type = integer, min = 0, max = 10, default = 2,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelWindow,
+}
+
+option STA_PryOpen.PryChanceMultiplierWindow
+{
+    type = double, min = 0.01, max = 5.00, default = 1.10,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierWindow,
+}
+
+option STA_PryOpen.PryTimeWindow
+{
+    type = integer, min = 1, max = 30, default = 6,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeWindow,
+}
+
+option STA_PryOpen.PryEnableGarage
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableGarage,
+}
+
+option STA_PryOpen.PryLevelGarage
+{
+    type = integer, min = 0, max = 10, default = 6,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelGarage,
+}
+
+option STA_PryOpen.PryChanceMultiplierGarage
+{
+    type = double, min = 0.01, max = 5.00, default = 0.85,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierGarage,
+}
+
+option STA_PryOpen.PryTimeGarage
+{
+    type = integer, min = 1, max = 30, default = 10,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeGarage,
+}
+
+option STA_PryOpen.PryEnableSecure
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableSecure,
+}
+
+option STA_PryOpen.PryLevelSecure
+{
+    type = integer, min = 0, max = 10, default = 8,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelSecure,
+}
+
+option STA_PryOpen.PryChanceMultiplierSecure
+{
+    type = double, min = 0.01, max = 5.00, default = 0.80,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierSecure,
+}
+
+option STA_PryOpen.PryTimeSecure
+{
+    type = integer, min = 1, max = 30, default = 14,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeSecure,
+}
+
+option STA_PryOpen.PryEnableVehicle
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableVehicle,
+}
+
+option STA_PryOpen.PryLevelVehicle
+{
+    type = integer, min = 0, max = 10, default = 3,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelVehicle,
+}
+
+option STA_PryOpen.PryChanceMultiplierVehicle
+{
+    type = double, min = 0.01, max = 5.00, default = 1.00,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierVehicle,
+}
+
+option STA_PryOpen.PryTimeVehicle
+{
+    type = integer, min = 1, max = 30, default = 10,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeVehicle,
+}
+
+option STA_PryOpen.PryEnableTrunk
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableTrunk,
+}
+
+option STA_PryOpen.PryLevelTrunk
+{
+    type = integer, min = 0, max = 10, default = 2,
+    page = STA_PryOpen, translation = STA_PryOpen_PryLevelTrunk,
+}
+
+option STA_PryOpen.PryChanceMultiplierTrunk
+{
+    type = double, min = 0.01, max = 5.00, default = 1.05,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceMultiplierTrunk,
+}
+
+option STA_PryOpen.PryTimeTrunk
+{
+    type = integer, min = 1, max = 30, default = 8,
+    page = STA_PryOpen, translation = STA_PryOpen_PryTimeTrunk,
+}
+
+option STA_PryOpen.PryChanceBreakWindow
+{
+    type = double, min = 0.00, max = 1.00, default = 0.30,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceBreakWindow,
+}
+
+option STA_PryOpen.PryChanceBreakVehicleWindow
+{
+    type = double, min = 0.00, max = 1.00, default = 0.20,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceBreakVehicleWindow,
+}
+
+option STA_PryOpen.PryChanceBreakVehicleLock
+{
+    type = double, min = 0.00, max = 1.00, default = 0.15,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceBreakVehicleLock,
+}
+
+option STA_PryOpen.PryChanceInjury
+{
+    type = double, min = 0.00, max = 1.00, default = 0.08,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceInjury,
+}
+
+option STA_PryOpen.PryBonusTraitSkin
+{
+    type = double, min = 0.00, max = 1.00, default = 0.05,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusTraitSkin,
+}
+
+option STA_PryOpen.PryChanceInjurySeverity01
+{
+    type = double, min = 0.00, max = 1.00, default = 0.65,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceInjurySeverity01,
+}
+
+option STA_PryOpen.PryChanceInjurySeverity02
+{
+    type = double, min = 0.00, max = 1.00, default = 0.30,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceInjurySeverity02,
+}
+
+option STA_PryOpen.PryChanceInjurySeverity03
+{
+    type = double, min = 0.00, max = 1.00, default = 0.05,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceInjurySeverity03,
+}
+
+option STA_PryOpen.PryNoiseRadius
+{
+    type = integer, min = 5, max = 100, default = 15,
+    page = STA_PryOpen, translation = STA_PryOpen_PryNoiseRadius,
+}
+
+option STA_PryOpen.PryBonusSkillSneak
+{
+    type = double, min = 0.00, max = 10.00, default = 0.5,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillSneak,
+}
+
+option STA_PryOpen.PryEnableAlarmSuccess
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableAlarmSuccess,
+}
+
+option STA_PryOpen.PryEnableAlarmForce
+{
+    type = boolean, default = true,
+    page = STA_PryOpen, translation = STA_PryOpen_PryEnableAlarmForce,
+}
+
+option STA_PryOpen.PryChanceAlarm
+{
+    type = double, min = 0.00, max = 1.00, default = 0.12,
+    page = STA_PryOpen, translation = STA_PryOpen_PryChanceAlarm,
+}
+
+option STA_PryOpen.PryBonusSkillElectricity
+{
+    type = double, min = 0.00, max = 1.00, default = 0.01,
+    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSkillElectricity,
+}
+
+option STA_PryOpen.PryToolItemsList
+{
+    type = string, default = ,
+    page = STA_PryOpen, translation = STA_PryOpen_PryToolItemsList,
+}
+
+option STA_PryOpen.PryToolTagsList
+{
+    type = string, default = base:crowbar:1.0;,
+    page = STA_PryOpen, translation = STA_PryOpen_PryToolTagsList,
+}

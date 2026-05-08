@@ -1,0 +1,141 @@
+{
+    "Sandbox_STA_PryOpen": "ST Additions - Взлом монтировкой",
+
+    "Sandbox_STA_PryOpen_PryEnablePity": "Включить систему помощи",
+    "Sandbox_STA_PryOpen_PryEnablePity_tooltip": "Включить упрощение взлома после последовательных неудач (бонус 1% до 15%)",
+
+    "Sandbox_STA_PryOpen_PryChanceBase": "Базовый шанс успеха %",
+    "Sandbox_STA_PryOpen_PryChanceBase_tooltip": "Базовый шанс успеха до модификаторов.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillStrength": "Шанс за уровень силы %",
+    "Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip": "Бонус шанса успеха за каждый уровень силы.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry": "Шанс за уровень плотницкого дела %",
+    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip": "Бонус шанса успеха за каждый уровень плотницкого дела (только для обычных дверей и окон).",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith": "Шанс за уровень кузнечного дела %",
+    "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip": "Бонус шанса успеха за каждый уровень кузнечного дела (только для бронированных и гаражных дверей).",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillMechanics": "Шанс за уровень механики %",
+    "Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip": "Бонус шанса успеха за каждый уровень механики (только для дверей и багажников транспортных средств).",
+
+    "Sandbox_STA_PryOpen_PryBonusTraitBurglar": "Шанс черты Взломщик %",
+    "Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip": "Бонус шанса успеха для черты Взломщик.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillNimble": "Сокращение времени за уровень ловкости",
+    "Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip": "Сокращение требуемого времени за каждый уровень ловкости.",
+
+    "Sandbox_STA_PryOpen_PryBonusTraitDextrous": "Сокращение времени черты Шустрый",
+    "Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip": "Сокращение требуемого времени для черты Шустрый.",
+
+    "Sandbox_STA_PryOpen_PryEnableBuilding": "Включить взлом дверей",
+    "Sandbox_STA_PryOpen_PryEnableBuilding_tooltip": "Разрешить игрокам взламывать двери зданий.",
+
+    "Sandbox_STA_PryOpen_PryLevelBuilding": "Мин. уровень для дверей",
+    "Sandbox_STA_PryOpen_PryLevelBuilding_tooltip": "Минимальный уровень силы для взлома дверей зданий.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierBuilding": "Множитель шанса для дверей %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip": "Множитель шанса успеха для дверей зданий (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeBuilding": "Время действия для дверей",
+    "Sandbox_STA_PryOpen_PryTimeBuilding_tooltip": "Секунд требуется для попытки взлома дверей зданий.",
+
+    "Sandbox_STA_PryOpen_PryEnableWindow": "Включить взлом окон",
+    "Sandbox_STA_PryOpen_PryEnableWindow_tooltip": "Разрешить игрокам взламывать окна зданий.",
+
+    "Sandbox_STA_PryOpen_PryLevelWindow": "Мин. уровень для окон",
+    "Sandbox_STA_PryOpen_PryLevelWindow_tooltip": "Минимальный уровень силы для взлома окон зданий.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierWindow": "Множитель шанса для окон %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip": "Множитель шанса успеха для окон зданий (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeWindow": "Время действия для окон",
+    "Sandbox_STA_PryOpen_PryTimeWindow_tooltip": "Секунд требуется для попытки взлома окон зданий.",
+
+    "Sandbox_STA_PryOpen_PryEnableGarage": "Включить взлом гаражей",
+    "Sandbox_STA_PryOpen_PryEnableGarage_tooltip": "Разрешить игрокам взламывать гаражные двери.",
+
+    "Sandbox_STA_PryOpen_PryLevelGarage": "Мин. уровень для гаражей",
+    "Sandbox_STA_PryOpen_PryLevelGarage_tooltip": "Минимальный уровень силы для взлома гаражных дверей.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierGarage": "Множитель шанса для гаражей %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip": "Множитель шанса успеха для гаражных дверей (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeGarage": "Время действия для гаражей",
+    "Sandbox_STA_PryOpen_PryTimeGarage_tooltip": "Секунд требуется для попытки взлома гаражных дверей.",
+
+    "Sandbox_STA_PryOpen_PryEnableSecure": "Включить взлом бронированных дверей",
+    "Sandbox_STA_PryOpen_PryEnableSecure_tooltip": "Разрешить игрокам взламывать бронированные двери.",
+
+    "Sandbox_STA_PryOpen_PryLevelSecure": "Мин. уровень для бронированных",
+    "Sandbox_STA_PryOpen_PryLevelSecure_tooltip": "Минимальный уровень силы для взлома бронированных дверей.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierSecure": "Множитель шанса для бронированных %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip": "Множитель шанса успеха для бронированных дверей (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeSecure": "Время действия для бронированных",
+    "Sandbox_STA_PryOpen_PryTimeSecure_tooltip": "Секунд требуется для попытки взлома бронированных дверей.",
+
+    "Sandbox_STA_PryOpen_PryEnableVehicle": "Включить взлом транспорта",
+    "Sandbox_STA_PryOpen_PryEnableVehicle_tooltip": "Разрешить игрокам взламывать двери транспортных средств.",
+
+    "Sandbox_STA_PryOpen_PryLevelVehicle": "Мин. уровень для транспорта",
+    "Sandbox_STA_PryOpen_PryLevelVehicle_tooltip": "Минимальный уровень силы для взлома дверей транспортных средств.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierVehicle": "Множитель шанса для транспорта %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip": "Множитель шанса успеха для дверей транспортных средств (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeVehicle": "Время действия для транспорта",
+    "Sandbox_STA_PryOpen_PryTimeVehicle_tooltip": "Секунд требуется для попытки взлома дверей транспортных средств.",
+
+    "Sandbox_STA_PryOpen_PryEnableTrunk": "Включить взлом багажников",
+    "Sandbox_STA_PryOpen_PryEnableTrunk_tooltip": "Разрешить игрокам взламывать багажники.",
+
+    "Sandbox_STA_PryOpen_PryLevelTrunk": "Мин. уровень для багажников",
+    "Sandbox_STA_PryOpen_PryLevelTrunk_tooltip": "Минимальный уровень силы для взлома багажников.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierTrunk": "Множитель шанса для багажников %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip": "Множитель шанса успеха для багажников (применяется после бонусов).",
+
+    "Sandbox_STA_PryOpen_PryTimeTrunk": "Время действия для багажников",
+    "Sandbox_STA_PryOpen_PryTimeTrunk_tooltip": "Секунд требуется для попытки взлома багажников.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakWindow": "Шанс разбития окна %",
+    "Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip": "Процент шанса разбития окна здания после неудачного взлома.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow": "Шанс разбития окна транспорта %",
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip": "Процент шанса разбития окна транспортного средства после неудачного взлома двери.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleLock": "Шанс поломки замка транспорта %",
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip": "Процент шанса поломки дверного замка транспортного средства после неудачного взлома.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjury": "Шанс травмы %",
+    "Sandbox_STA_PryOpen_PryChanceInjury_tooltip": "Процент шанса травмы руки после неудачного взлома.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity01": "Шанс царапины %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip": "Процент шанса, что травма руки будет царапиной.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity02": "Шанс пореза %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip": "Процент шанса, что травма руки будет порезом.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity03": "Шанс глубокой раны %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip": "Процент шанса, что травма руки будет глубокой раной.",
+
+    "Sandbox_STA_PryOpen_PryNoiseRadius": "Радиус шума взлома",
+    "Sandbox_STA_PryOpen_PryNoiseRadius_tooltip": "На сколько тайлов распространяется шум взлома.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillSneak": "Снижение шума за уровень скрытности",
+    "Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip": "На сколько тайлов снижается шум взлома за каждый уровень скрытности.",
+
+    "Sandbox_STA_PryOpen_PryEnableAlarmSuccess": "Включить отключение сигнализаций при успехе",
+    "Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip": "Включить отключение сигнализаций после успешного взлома.",
+
+    "Sandbox_STA_PryOpen_PryEnableAlarmForce": "Включить принудительные сигнализации",
+    "Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip": "Включить сигнализации автомобилей/зданий при срабатывании шанса сигнализации % (в противном случае сигнализации срабатывают только если шанс % сработал и сигнализация была ранее включена).",
+
+    "Sandbox_STA_PryOpen_PryChanceAlarm": "Шанс сигнализации %",
+    "Sandbox_STA_PryOpen_PryChanceAlarm_tooltip": "Процент шанса срабатывания сигнализации после неудачного взлома.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillElectricity": "Снижение шанса сигнализации за уровень электрики",
+    "Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip": "Снижение шанса сигнализации за каждый уровень электрики."
+}

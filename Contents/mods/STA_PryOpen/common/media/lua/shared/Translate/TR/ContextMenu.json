@@ -1,0 +1,24 @@
+{
+"ContextMenu_STA_PryOpen_Pry": "%1 Zorlayarak Aç",
+"ContextMenu_STA_PryOpen_Window": "Pencere",
+"ContextMenu_STA_PryOpen_Building": "Kapı",
+"ContextMenu_STA_PryOpen_Garage": "Garaj Kapısı",
+"ContextMenu_STA_PryOpen_Secure": "Güvenlik Kapısı",
+
+"ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
+"ContextMenu_STA_PryOpen_Vehicle_Generic": "Araç Kapısı",
+"ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Ön",
+"ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "Orta",
+"ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "Arka",
+"ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "Arka",
+"ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "Bagaj",
+"ContextMenu_STA_PryOpen_Vehicle_Side_Left": "Sol",
+"ContextMenu_STA_PryOpen_Vehicle_Side_Right": "Sağ",
+"ContextMenu_STA_PryOpen_Vehicle_Door": "Kapı",
+"ContextMenu_STA_PryOpen_Vehicle_DoorP": "Kapılar",
+
+"ContextMenu_STA_PryOpen_JobLabel": "Zorlanıyor...",
+
+"ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Levye gerekiyor",
+"ContextMenu_STA_PryOpen_Radial_NoStrength": "Yetersiz güç"
+}

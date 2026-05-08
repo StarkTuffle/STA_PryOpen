@@ -1,0 +1,6 @@
+Tooltip_TR = {
+Tooltip_STA_PryOpen_ReqStrength = "Kuvvet: %1/%2.",
+Tooltip_STA_PryOpen_NeedCrowbar = "Kullanýlabilir bir levye gerekiyor.",
+Tooltip_STA_PryOpen_chanceInjury = "Yaralanma þansý:",
+Tooltip_STA_PryOpen_alreadyUnlocked = "%1 zaten açýk veya kilidi açýlmýþ.",
+}

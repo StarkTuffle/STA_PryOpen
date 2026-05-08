@@ -1,0 +1,150 @@
+{
+"Sandbox_STA_PryOpen": "ST Additions - Zorlayarak Açma (Levye)",
+
+"Sandbox_STA_PryOpen_PryEnablePity": "Acıma Sistemini Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnablePity_tooltip": "Ardışık başarısız denemelerden sonra zorlamanın kolaylaşıp kolaylaşmayacağını belirler. (Her başarısızlıkta %+1, en fazla %+15 bonus)",
+
+"Sandbox_STA_PryOpen_PryChanceBase": "Temel Başarı Yüzdesi",
+"Sandbox_STA_PryOpen_PryChanceBase_tooltip": "Bonuslar eklenmeden önceki temel başarı şansı.",
+
+"Sandbox_STA_PryOpen_PryBonusSkillStrength": "Seviye Başına Kuvvet Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip": "Kuvvet yeteneği seviyesi başına eklenen başarı şansı bonusu.",
+
+"Sandbox_STA_PryOpen_PryBonusSkillCarpentry": "Seviye Başına Marangozluk Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip": "Marangozluk yeteneği seviyesi başına eklenen başarı şansı bonusu (Sadece standart kapı ve pencereler için geçerlidir).",
+
+"Sandbox_STA_PryOpen_PryBonusSkillBlacksmith": "Seviye Başına Demircilik Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip": "Demircilik yeteneği seviyesi başına eklenen başarı şansı bonusu (Sadece güvenlik kapıları ve garaj kapıları için geçerlidir).",
+
+"Sandbox_STA_PryOpen_PryBonusSkillMechanics": "Seviye Başına Metal İşçiliği Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip": "Metal İşçiliği yeteneği seviyesi başına eklenen başarı şansı bonusu (Sadece araç kapıları ve bagajları için geçerlidir).",
+
+"Sandbox_STA_PryOpen_PryBonusTraitBurglar": "Hırsız Özelliği Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip": "Hırsız (Burglar) mesleği/özelliği için ek başarı şansı bonusu.",
+
+"Sandbox_STA_PryOpen_PryBonusSkillNimble": "Çeviklik Yeteneği Süre Azaltması",
+"Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip": "Çeviklik seviyesi başına gereken sürenin ne kadar azalacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryBonusTraitDextrous": "Becerikli Özelliği Süre Azaltması",
+"Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip": "Becerikli (Dextrous) özelliği için gereken sürenin azalmasını sağlar.",
+
+"Sandbox_STA_PryOpen_PryEnableBuilding": "Kapı Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableBuilding_tooltip": "Oyuncuların bina kapılarını levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelBuilding": "Min. Kapı Zorlama Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelBuilding_tooltip": "Oyuncuların bina kapılarını zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierBuilding": "Kapı Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip": "Bina kapıları için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeBuilding": "Kapı Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeBuilding_tooltip": "Bina kapılarını zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryEnableWindow": "Pencere Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableWindow_tooltip": "Oyuncuların pencereleri levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelWindow": "Min. Pencere Zorlama Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelWindow_tooltip": "Oyuncuların pencereleri zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierWindow": "Pencere Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip": "Pencereler için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeWindow": "Pencere Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeWindow_tooltip": "Pencereleri zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryEnableGarage": "Garaj Kapısı Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableGarage_tooltip": "Oyuncuların garaj kapılarını levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelGarage": "Min. Garaj Zorlama Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelGarage_tooltip": "Oyuncuların garaj kapılarını zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierGarage": "Garaj Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip": "Garaj kapıları için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeGarage": "Garaj Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeGarage_tooltip": "Garaj kapılarını zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryEnableSecure": "Güvenlik Kapısı Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableSecure_tooltip": "Oyuncuların demir/güvenlik kapılarını levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelSecure": "Min. Güvenlik Kapısı Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelSecure_tooltip": "Oyuncuların güvenlik kapılarını zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierSecure": "Güvenlik Kapısı Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip": "Güvenlik kapıları için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeSecure": "Güvenlik Kapısı Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeSecure_tooltip": "Güvenlik kapılarını zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryEnableVehicle": "Araç Kapısı Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableVehicle_tooltip": "Oyuncuların araç kapılarını levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelVehicle": "Min. Araç Zorlama Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelVehicle_tooltip": "Oyuncuların araç kapılarını zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierVehicle": "Araç Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip": "Araç kapıları için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeVehicle": "Araç Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeVehicle_tooltip": "Araç kapılarını zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryEnableTrunk": "Bagaj Zorlamayı Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableTrunk_tooltip": "Oyuncuların araç bagajlarını levye ile zorlayarak açıp açamayacağını belirler.",
+
+"Sandbox_STA_PryOpen_PryLevelTrunk": "Min. Bagaj Zorlama Seviyesi",
+"Sandbox_STA_PryOpen_PryLevelTrunk_tooltip": "Oyuncuların bagajları zorlayabilmesi için gereken minimum Kuvvet seviyesi.",
+
+"Sandbox_STA_PryOpen_PryChanceMultiplierTrunk": "Bagaj Şans Çarpanı %",
+"Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip": "Araç bagajları için başarı şansı çarpanı (Bonuslardan sonra uygulanır).",
+
+"Sandbox_STA_PryOpen_PryTimeTrunk": "Bagaj Zorlama Süresi",
+"Sandbox_STA_PryOpen_PryTimeTrunk_tooltip": "Bagajları zorlayarak açma denemesi için gereken süre (saniye).",
+
+"Sandbox_STA_PryOpen_PryChanceBreakWindow": "Cam Kırılma Şansı %",
+"Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip": "Zorlama başarısız olduğunda pencerenin tuzla buz olma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow": "Araç Camı Kırılma Şansı %",
+"Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip": "Araç kapısı zorlanırken başarısız olunursa camın kırılma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryChanceBreakVehicleLock": "Araç Kilidi Bozulma Şansı %",
+"Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip": "Araç kapısı zorlanırken başarısız olunursa kilidin tamamen bozulma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryChanceInjury": "Yaralanma Şansı %",
+"Sandbox_STA_PryOpen_PryChanceInjury_tooltip": "Zorlama başarısız olduğunda elden yaralanma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryBonusTraitSkin": "Deri Özelliği Yaralanma Bonusu %",
+"Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip": "Kalın Derili veya İnce Derili özelliklerinin yaralanma şansına etkisi.",
+
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity01": "Yaralanma: Sıyrık Şansı %",
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip": "El yaralanmasının sıyrık olma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity02": "Yaralanma: Kesik Şansı %",
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip": "El yaralanmasının derin kesik (laceration) olma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity03": "Yaralanma: Derin Yara Şansı %",
+"Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip": "El yaralanmasının derin yara olma ihtimali.",
+
+"Sandbox_STA_PryOpen_PryNoiseRadius": "Zorlama Gürültü Yarıçapı",
+"Sandbox_STA_PryOpen_PryNoiseRadius_tooltip": "Levye sesinin zombileri çekmek için ne kadar uzağa gideceği (kare birimi).",
+
+"Sandbox_STA_PryOpen_PryBonusSkillSneak": "Gizlilik Yeteneği Gürültü Azaltması",
+"Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip": "Gizlilik seviyesi başına levye sesinin kaç kare azalacağı.",
+
+"Sandbox_STA_PryOpen_PryEnableAlarmSuccess": "Başarılı Açılışta Alarmı Kapat",
+"Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip": "Bir yeri başarıyla zorlayarak açtıktan sonra varsa alarmın devre dışı bırakılıp bırakılmayacağı.",
+
+"Sandbox_STA_PryOpen_PryEnableAlarmForce": "Zorlanmış Alarmları Etkinleştir",
+"Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip": "Alarm Şansı % tetiklendiğinde araç/bina alarmını zorla çaldırır (Normalde sadece alarm sistemi kuruluysa çalar).",
+
+"Sandbox_STA_PryOpen_PryChanceAlarm": "Alarm Çalma Şansı %",
+"Sandbox_STA_PryOpen_PryChanceAlarm_tooltip": "Zorlama başarısız olduğunda alarmın tetiklenme ihtimali.",
+
+"Sandbox_STA_PryOpen_PryBonusSkillElectricity": "Elektronik Seviyesi Başına Alarm Azaltması",
+"Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip": "Elektronik seviyesi başına alarm tetiklenme şansındaki azalma.",
+
+"Sandbox_STA_PryOpen_PryToolItemsList": "Zorlama Araçları Listesi",
+"Sandbox_STA_PryOpen_PryToolItemsList_tooltip": "Eşyaların temel şans değerleri. <LINE>Min: 0.00 Max: 5.00 <LINE>'Base.Item:1.0' şeklinde formatlayın. <LINE>Eşyaları ';' ile ayırın.",
+
+"Sandbox_STA_PryOpen_PryToolTagsList": "Zorlama Aracı Etiketleri",
+"Sandbox_STA_PryOpen_PryToolTagsList_tooltip": "Eşya etiketlerinin temel şans değerleri. <LINE>Min: 0.00 Max: 5.00 <LINE>'Etiket:1.0' şeklinde formatlayın. <LINE>Etiketleri ';' ile ayırın."
+}

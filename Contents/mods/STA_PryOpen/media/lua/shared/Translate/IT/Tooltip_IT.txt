@@ -1,0 +1,6 @@
+Tooltip_IT = {
+    Tooltip_STA_PryOpen_ReqStrength = "Forza %1/%2.",
+    Tooltip_STA_PryOpen_NeedCrowbar = "Richiede un piede di porco utilizzabile.",
+    Tooltip_STA_PryOpen_chanceInjury = "Probabilità di ferita:",
+    Tooltip_STA_PryOpen_alreadyUnlocked = "%1 è già sbloccato o aperto.",
+}

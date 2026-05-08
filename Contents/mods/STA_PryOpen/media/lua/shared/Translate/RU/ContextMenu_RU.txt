@@ -1,0 +1,24 @@
+ContextMenu_RU = {
+    ContextMenu_STA_PryOpen_Pry = "Вскрыть %1",
+    ContextMenu_STA_PryOpen_Window = "Окно",
+    ContextMenu_STA_PryOpen_Building = "Дверь",
+    ContextMenu_STA_PryOpen_Garage = "Гаражная дверь",
+    ContextMenu_STA_PryOpen_Secure = "Бронированная дверь",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%1 %2 %3",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "Дверь транспортного средства",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "Переднюю",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "Среднюю",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "Заднюю",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "Задние",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "Багажник",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "левую",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "правую",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "дверь",
+    ContextMenu_STA_PryOpen_Vehicle_Doors = "двери",
+
+    ContextMenu_STA_PryOpen_JobLabel = "Взламываю...",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "Нужен лом",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "Недостаточно силы"
+}

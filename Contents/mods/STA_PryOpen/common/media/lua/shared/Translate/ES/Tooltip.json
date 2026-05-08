@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "Fortaleza %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "Requiere una palanca utilizable.",
+    "Tooltip_STA_PryOpen_chanceInjury": "Probabilidad de lesión:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "La %1 ya está desbloqueada o abierta."
+}

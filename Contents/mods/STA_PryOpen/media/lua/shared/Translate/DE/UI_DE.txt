@@ -1,0 +1,6 @@
+UI_DE = {
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess = "Aktiviere Erfolgsmeldung des Spielers",
+    UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip = "Aktiviert die Option für eine Textbenachrichtigung, falls ein Aufbruchversuch erfolgreich ist oder fehlschlägt.",
+    UI_STA_PryOpen_Options_VolumeAdjust = "Brechstangen Lautstärke",
+    UI_STA_PryOpen_Options_VolumeAdjust_tooltip = "Regelt die Lautstärke der Geräusche während des Aufhebelvorgangs.",
+}

@@ -1,0 +1,151 @@
+{
+    "Sandbox_STA_PryOpen": "ST Additions - งัดเพื่อเปิด",
+
+    "Sandbox_STA_PryOpen_PryEnablePity": "เปิดระบบความสงสาร",
+    "Sandbox_STA_PryOpen_PryEnablePity_tooltip": "ทำให้การงัดเปิดประตูง่ายขึ้นหลังจากงัดผิดพลาดติดต่อกันหลายครั้ง. (1% โบนัส สูงถึง 15%)",
+
+    "Sandbox_STA_PryOpen_PryChanceBase": "ความสำเร็จ พื้นฐาน %",
+    "Sandbox_STA_PryOpen_PryChanceBase_tooltip": "โอกาสความสำเร็จ พื้นฐานก่อนการปรับเปลี่ยน.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillStrength": "โอกาส พละกำลัง ต่อ เลเวล %",
+    "Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip": "โบนัส โอกาสสำเร็จ ต่อ เลเวล พละกำลัง.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry": "โอกาส ทักษะช่างไม้ ต่อ เลเวล %",
+    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip": "โบนัส โอกาสความสำเร็จ ต่อ เลเวล ทักษะช่างไม้ (เฉพาะการตั้งค่า ของประตูและหน้าต่าง).",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith": "โอกาส ทักษะช่างตีเหล็ก ต่อ เลเวล %",
+    "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip": "โบนัส โอกาสความสำเร็จ ต่อ เลเวล งานทักษะตีเหล็ก (เฉพาะประตูรักษาความปลอดภัยและประตูโรงรถ).",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillMechanics": "โอกาส ทักษะช่างยนต์ ต่อ เลเวล %",
+    "Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip": "โบนัส โอกาสความสำเร็จ ต่อ เลเวล ทักษะช่างยนต์ (เฉพาะประตูรถและฝากระโปรงรถ).",
+
+    "Sandbox_STA_PryOpen_PryBonusTraitBurglar": "โอกาส อาชีพหัวขโมย %",
+    "Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip": "โบนัส โอกาสความสำเร็จ สำหรับ อาชีพหัวขโมย.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillNimble": "ทักษะปราดเปรียวลดเวลา",
+    "Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip": "ทักษะปราดเปรียวมีผลต่อเวลาที่ใช้ในการงัด.",
+
+    "Sandbox_STA_PryOpen_PryBonusTraitDextrous": "ทักษะว่องไวลดเวลา",
+    "Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip": "ทักษะว่องไวมีผลต่อเวลาที่ใช้ในการงัด",
+
+    "Sandbox_STA_PryOpen_PryEnableBuilding": "เปิดใช้งาน การงัดประตู",
+    "Sandbox_STA_PryOpen_PryEnableBuilding_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดประตูอาคารได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelBuilding": "เลเวล ประตู ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelBuilding_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดประตูอาคาร.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierBuilding": "ตัวคูณโอกาสของประตูอาคาร %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip": "คูณโอกาสความสำเร็จของประตูอาคาร (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeBuilding": "เวลาของประตูอาคาร",
+    "Sandbox_STA_PryOpen_PryTimeBuilding_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดประตูอาคาร.",
+
+    "Sandbox_STA_PryOpen_PryEnableWindow": "เปิดการงัดหน้าต่าง",
+    "Sandbox_STA_PryOpen_PryEnableWindow_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดหน้าต่างอาคารได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelWindow": "เลเวล หน้าต่าง ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelWindow_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดหน้าต่างอาคาร.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierWindow": "ตัวคูณโอกาสของหน้าต่าง %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip": "คูณโอกาสความสำเร็จของหน้าต่างอาคาร (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeWindow": "เวลาของหน้าต่าง",
+    "Sandbox_STA_PryOpen_PryTimeWindow_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดหน้าต่างอาคาร.",
+
+    "Sandbox_STA_PryOpen_PryEnableGarage": "เปิดการงัดประตูโรงรถ",
+    "Sandbox_STA_PryOpen_PryEnableGarage_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดประตูโรงรถได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelGarage": "เลเวล ประตูโรงรถ ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelGarage_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดประตูโรงรถ.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierGarage": "ตัวคูณโอกาสของประตูโรงรถ %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip": "คูณโอกาสความสำเร็จของประตูโรงรถ (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeGarage": "เวลาของประตูโรงรถ",
+    "Sandbox_STA_PryOpen_PryTimeGarage_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดประตูโรงรถ.",
+
+    "Sandbox_STA_PryOpen_PryEnableSecure": "เปิดการงัดประตูรักษาความปลอดภัย",
+    "Sandbox_STA_PryOpen_PryEnableSecure_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดประตูรักษาความปลอดภัยได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelSecure": "เลเวล ประตูรักษาความปลอดภัย ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelSecure_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดประตูรักษาความปลอดภัย.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierSecure": "ตัวคูณโอกาสของประตูรักษาความปลอดภัย %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip": "คูณโอกาสความสำเร็จของประตูรักษาความปลอดภัย (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeSecure": "เวลาของประตูรักษาความปลอดภัย",
+    "Sandbox_STA_PryOpen_PryTimeSecure_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดประตูรักษาความปลอดภัย.",
+
+    "Sandbox_STA_PryOpen_PryEnableVehicle": "เปิดการงัดรถ",
+    "Sandbox_STA_PryOpen_PryEnableVehicle_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดประตูรถได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelVehicle": "เลเวล ประตูรถ ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelVehicle_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดประตูรถ.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierVehicle": "ตัวคูณโอกาสของประตูรถ %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip": "คูณโอกาสความสำเร็จของประตูรถ (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeVehicle": "เวลาของประตูรถ",
+    "Sandbox_STA_PryOpen_PryTimeVehicle_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดประตูรถ.",
+
+    "Sandbox_STA_PryOpen_PryEnableTrunk": "เปิดการงัดฝากระโปรงหลัง",
+    "Sandbox_STA_PryOpen_PryEnableTrunk_tooltip": "ตั้งค่าให้ผู้เล่นสามารถงัดฝากระโปรงหลังรถได้หรือไม่.",
+
+    "Sandbox_STA_PryOpen_PryLevelTrunk": "เลเวล ฝากระโปรงหลังรถ ขั้นต่ำ",
+    "Sandbox_STA_PryOpen_PryLevelTrunk_tooltip": "เลเวล พละกำลังขั้นต่ำ ที่ผู้เล่นต้องใช้ในการงัดฝากระโปรงหลังรถ.",
+
+    "Sandbox_STA_PryOpen_PryChanceMultiplierTrunk": "ตัวคูณโอกาสของฝากระโปรงหลังรถ %",
+    "Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip": "คูณโอกาสความสำเร็จของฝากระโปรงหลังรถ (มีผลหลังจากค่าโบนัส).",
+
+    "Sandbox_STA_PryOpen_PryTimeTrunk": "เวลาของฝากระโปรงหลัง",
+    "Sandbox_STA_PryOpen_PryTimeTrunk_tooltip": "จำนวนวินาทีที่ต้องใช้ในการพยายามงัดฝากระโปรงหลังรถ.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakWindow": "โอกาสกระจกแตก %",
+    "Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip": "เปอร์เซ็นต์โอกาสที่กระจกอาคารจะแตกหลังจากงัดไม่สำเร็จ.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow": "โอกาสกระจกรถแตก %",
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip": "เปอร์เซ็นต์โอกาสที่กระจกรถจะแตกหลังจากงัดไม่สำเร็จ.",
+
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleLock": "โอกาสกลอนประตูเสีย %",
+    "Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip": "เปอร์เซ็นต์โอกาสที่กลอนประตูจะเสียหลังจากงัดไม่สำเร็จ.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjury": "โอกาสบาดเจ็บ %",
+    "Sandbox_STA_PryOpen_PryChanceInjury_tooltip": "เปอร์เซ็นต์โอกาสเกิดการบาดเจ็บที่มือหลังจากงัดไม่สำเร็จ.",
+
+    "Sandbox_STA_PryOpen_PryBonusTraitSkin": "คุณลักษณะผิวหนา/ผิวบาง ส่งผลต่อ % การเกิดอาการบาดเจ็บ",
+    "Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip": "โบนัสโอกาสเกิดการบาดเจ็บ หรือการลงโทษที่มีผลต่อคุณลักษณะผิวหนาหรือผิวบาง.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity01": "แผลรอยข่วน %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip": "เปอร์เซ็นต์โอกาสที่มือจะเกิดแผลรอยข่วน.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity02": "แผลฉีกขาด %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip": "เปอร์เซ็นต์โอกาสที่มือจะเกิดแผลฉีกขาด.",
+
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity03": "แผลลึก %",
+    "Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip": "เปอร์เซ็นต์โอกาสที่มือจะเกิดแผลลึก.",
+
+    "Sandbox_STA_PryOpen_PryNoiseRadius": "ระยะเสียงการงัด",
+    "Sandbox_STA_PryOpen_PryNoiseRadius_tooltip": "ตั้งค่าระยะ tiles ที่เสียงชะแลงจะดึงดูดซอมบี้.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillSneak": "ทักษะการย่องเบาช่วยลดเสียง",
+    "Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip": "ตั้งค่าระยะ tiles ที่เสียงชะแลงจะลดลงต่อเลเวลทักษะการย่องเบา.",
+
+    "Sandbox_STA_PryOpen_PryEnableAlarmSuccess": "ตั้งค่าปิดสัญญาณกันขโมยได้สำเร็จ",
+    "Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip": "ตั้งค่าปิดสัญญาณกันขโมยหลังจากงัดบางอย่างได้สำเร็จ.",
+
+    "Sandbox_STA_PryOpen_PryEnableAlarmForce": "เปิดบังคับสัญญาณกันขโมย",
+    "Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip": "เปิดใช้งานสัญญาณกันขโมยของรถ/อาคาร เมื่อ % โอกาสเกิดสัญญาณกันขโมยถูกเรียกใช้งาน (สัญญาณกันขโมยจะทำงานก็ต่อเมื่อมีการตั้งค่าโอกาสเกิด % อยู่ในระดับที่กำหนด และสัญญาณกันขโมยของรถ/อาคารได้ถูกเปิดใช้งานไว้ก่อนหน้านี้).",
+
+    "Sandbox_STA_PryOpen_PryChanceAlarm": "โอกาสเกิดสัญญาณกันขโมย %",
+    "Sandbox_STA_PryOpen_PryChanceAlarm_tooltip": "เปอร์เซ็นต์โอกาสสัญญาณกันขโมยทำงานเมื่องัดบางอย่าง.",
+
+    "Sandbox_STA_PryOpen_PryBonusSkillElectricity": "เลเวล ทักษะการไฟฟ้า ที่มีผลต่อโอกาสเกิดสัญญาณกันขโมย",
+    "Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip": "ลดโอกาสเกิดสัญญาณกันขโมย ต่อ เลเวลของทักษะการไฟฟ้า.",
+
+    "Sandbox_STA_PryOpen_PryToolItemsList": "อุปกรณ์ที่ใช้งัด",
+    "Sandbox_STA_PryOpen_PryToolItemsList_tooltip": "ค่าโอกาสพื้นฐานของไอเทมที่ใช้. <LINE>Min: 0.00 Max: 5.00 <LINE>Format as 'Base.Item:1.0' <LINE>Seperate items with ';'",
+
+    "Sandbox_STA_PryOpen_PryToolTagsList": "Tagsของอุปกรณ์งัด",
+    "Sandbox_STA_PryOpen_PryToolTagsList_tooltip": "ค่าโอกาสพื้นฐานของTagsอุปกรณ์งัด. <LINE>Min: 0.00 Max: 5.00 <LINE>Format as 'base:tag:1.0' <LINE>Seperate tags with ';'"
+}
+

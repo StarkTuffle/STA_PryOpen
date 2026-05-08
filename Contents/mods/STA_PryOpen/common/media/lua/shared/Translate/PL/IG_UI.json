@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "Potrzebuję sprawnego łomu.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "Wyłączone w ustawieniach sandbox.",
+    "IGUI_STA_PryOpen_RequiresStrength": "Wymaga Siły %1.",
+    "IGUI_STA_PryOpen_CantPry": "Nie mogę tego podważyć.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "Nie ma tu zamkniętych drzwi ani bagażnika pojazdu.",
+    "IGUI_STA_PryOpen_Chance": "Szansa: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "Sezamie, otwórz się.",
+    "IGUI_STA_PryOpen_Success_2": "Udało się otworzyć!",
+    "IGUI_STA_PryOpen_Success_3": "Zadziałało.",
+    "IGUI_STA_PryOpen_Success_4": "Bułka z masłem.",
+    "IGUI_STA_PryOpen_Success_5": "Łom jak różdżka!",
+    "IGUI_STA_PryOpen_Failure_1": "Nic z tego… ani drgnie.",
+    "IGUI_STA_PryOpen_Failure_2": "Zamknięte jak sejf w banku.",
+    "IGUI_STA_PryOpen_Failure_3": "No dawaj…",
+    "IGUI_STA_PryOpen_Failure_4": "Nie mam szczęścia.",
+    "IGUI_STA_PryOpen_Failure_5": "Cholera, nie chce puścić.",
+    "IGUI_STA_PryOpen_Injury_1": "Rozwaliłem sobie rękę, potrzebuję bandaża.",
+    "IGUI_STA_PryOpen_Injury_2": "Auć! To zabolało.",
+    "IGUI_STA_PryOpen_Injury_3": "Oj… chyba się zaciąłem.",
+    "IGUI_STA_PryOpen_Injury_4": "Trzeba było uważać.",
+    "IGUI_STA_PryOpen_Injury_5": "To zostanie na pamiątkę."
+}

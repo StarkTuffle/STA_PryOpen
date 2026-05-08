@@ -1,0 +1,24 @@
+ContextMenu_TH = {
+    ContextMenu_STA_PryOpen_Pry = "งัด เพื่อเปิด %1"
+    ContextMenu_STA_PryOpen_Window = "หน้าต่าง",
+    ContextMenu_STA_PryOpen_Building = "ประตู",
+    ContextMenu_STA_PryOpen_Garage = "ประตูโรงรถ",
+    ContextMenu_STA_PryOpen_Secure = "ประตูรักษาความปลอดภัย",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%1 %2 %3",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "ประตูรถ",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "หน้า",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "กลาง",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "ด้านข้าง",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "ด้านข้าง",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "ฝากระโปรงหลัง",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "ซ้าย",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "ขวา",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "ประตู",
+    ContextMenu_STA_PryOpen_Vehicle_DoorP = "ประตู",
+
+    ContextMenu_STA_PryOpen_JobLabel = "กำลังงัด...",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "ต้องการชะแลง",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "พละกำลังไม่เพียงพอ",
+}

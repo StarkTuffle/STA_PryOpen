@@ -1,0 +1,24 @@
+ContextMenu_ES = {
+    ContextMenu_STA_PryOpen_Pry = "Abrir el %1 con una Palanca"
+    ContextMenu_STA_PryOpen_Window = "Ventana",
+    ContextMenu_STA_PryOpen_Building = "Puerta",
+    ContextMenu_STA_PryOpen_Garage = "Puerta de Garaje",
+    ContextMenu_STA_PryOpen_Secure = "Puerta de Seguridad",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%3 %2 %1",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "Puerta del Vehículo",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "Delantera",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "Central",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "Trasera",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "Traseras",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "Maletero",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "Izquierda",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "Derecha",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "Puerta",
+    ContextMenu_STA_PryOpen_Vehicle_DoorP = "Puertas",
+
+    ContextMenu_STA_PryOpen_JobLabel = "Apertura con Palanca...",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "Necesito una Palanca",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "No hay Suficiente Fuerza",
+}

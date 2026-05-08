@@ -1,0 +1,6 @@
+Tooltip_RU = {
+    Tooltip_STA_PryOpen_ReqStrength = "Сила %1/%2.",
+    Tooltip_STA_PryOpen_NeedCrowbar = "Требуется пригодный для использования лом.",
+    Tooltip_STA_PryOpen_chanceInjury = "Шанс травмы:",
+    Tooltip_STA_PryOpen_alreadyUnlocked = "%1 уже взломано или открыто.",
+}

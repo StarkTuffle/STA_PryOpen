@@ -1,0 +1,141 @@
+Sandbox_PTBR = {
+    Sandbox_STA_PryOpen = "ST Additions - Arrombamento",
+
+    Sandbox_STA_PryOpen_PryEnablePity = "Ativar Sistema de Misericórdia",
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "Define se arrombar fica mais fácil após falhas consecutivas. (Bônus de 1% até 15%)",
+
+    Sandbox_STA_PryOpen_PryChanceBase = "Chance Base de Sucesso %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "Chance base de sucesso antes dos modificadores.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "Chance por Nível de Força %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "Bônus de chance de sucesso por nível de Força.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "Chance por Nível de Carpintaria %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "Bônus de chance de sucesso por nível de Carpintaria (somente para portas e janelas comuns).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "Chance por Nível de Ferraria %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "Bônus de chance de sucesso por nível de Ferraria (somente para portas de segurança e garagens).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "Chance por Nível de Mecânica %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "Bônus de chance de sucesso por nível de Mecânica (somente para portas e porta-malas de veículos).",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "Chance com o Traço Ladrão %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "Bônus de chance de sucesso para personagens com o traço Ladrão.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "Redução de Tempo por Nível de Agilidade",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "Redução do tempo necessário por nível de Agilidade.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous = "Redução de Tempo com Traço Ýgil",
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip = "Reduz o tempo necessário para o traço Ýgil.",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "Ativar Arrombamento de Portas",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "Define se os jogadores podem arrombar portas de construções.",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "Nível Mínimo de Força (Portas)",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "Nível mínimo de Força necessário para arrombar portas de construções.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "Multiplicador de Chance (Portas) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "Multiplicador de chance de sucesso para portas (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "Tempo de Ação (Portas)",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "Segundos necessários para tentar arrombar uma porta de construção.",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "Ativar Arrombamento de Janelas",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "Define se os jogadores podem arrombar janelas de construções.",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "Nível Mínimo de Força (Janelas)",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "Nível mínimo de Força necessário para arrombar janelas de construções.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "Multiplicador de Chance (Janelas) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "Multiplicador de chance de sucesso para janelas (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "Tempo de Ação (Janelas)",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "Segundos necessários para tentar arrombar uma janela de construção.",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "Ativar Arrombamento de Garagens",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "Define se os jogadores podem arrombar portas de garagem.",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "Nível Mínimo (Garagem)",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "Nível mínimo de Força necessário para arrombar portas de garagem.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "Multiplicador de Chance (Garagem) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "Multiplicador de chance de sucesso para portas de garagem (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "Tempo de Ação (Garagem)",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "Segundos necessários para tentar arrombar uma porta de garagem.",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "Ativar Arrombamento de Portas de Segurança",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "Define se os jogadores podem arrombar portas de segurança.",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "Nível Mínimo (Segurança)",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "Nível mínimo de Força necessário para arrombar portas de segurança.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "Multiplicador de Chance (Segurança) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "Multiplicador de chance de sucesso para portas de segurança (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "Tempo de Ação (Segurança)",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "Segundos necessários para tentar arrombar uma porta de segurança.",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "Ativar Arrombamento de Veículos",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "Define se os jogadores podem arrombar portas de veículos.",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "Nível Mínimo (Veículo)",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "Nível mínimo de Força necessário para arrombar portas de veículos.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "Multiplicador de Chance (Veículo) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "Multiplicador de chance de sucesso para portas de veículos (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "Tempo de Ação (Veículo)",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "Segundos necessários para tentar arrombar uma porta de veículo.",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "Ativar Arrombamento de Porta-Malas",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "Define se os jogadores podem arrombar porta-malas de veículos.",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "Nível Mínimo (Porta-Malas)",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "Nível mínimo de Força necessário para arrombar porta-malas de veículos.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "Multiplicador de Chance (Porta-Malas) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "Multiplicador de chance de sucesso para porta-malas de veículos (aplicado após os bônus).",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "Tempo de Ação (Porta-Malas)",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "Segundos necessários para tentar arrombar um porta-malas de veículo.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "Chance de Quebrar Janela %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "Percentual de chance de uma janela de construção quebrar após falhar ao tentar arrombar.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "Chance de Quebrar Janela do Veículo %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "Percentual de chance de uma janela de veículo quebrar após falhar ao tentar arrombar a porta.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "Chance de Quebrar a Trava do Veículo %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "Percentual de chance de uma trava de porta de veículo quebrar após falhar ao tentar arrombar a porta.",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "Chance de Ferimento %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "Percentual de chance de ocorrer um ferimento na mão após falhar ao tentar arrombar algo.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "Ferimento: Arranhão %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "Percentual de chance de o ferimento na mão ser um arranhão.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "Ferimento: Corte %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "Percentual de chance de o ferimento na mão ser um corte.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "Ferimento: Ferida Profunda %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "Percentual de chance de o ferimento na mão ser uma ferida profunda.",
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "Raio de Ruído do Arrombamento",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "Quantidade de blocos (tiles) que o som do pé de cabra alcança e atrai zumbis.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "Redução de Ruído por Furtividade",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "Quantidade de blocos em que o ruído do pé de cabra é reduzido por nível de Furtividade.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "Desativar Alarmes ao Arrombar com Sucesso",
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "Define se alarmes são desativados após arrombar algo com sucesso.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "Ativar Alarmes Forçados",
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "Ativa alarmes de veículos ou construções quando a chance de alarme é acionada (caso contrário, só disparam se a chance de alarme for acionada e o sistema já estiver habilitado).",
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "Chance de Alarme %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "Percentual de chance de um alarme ser disparado após falhar ao tentar arrombar algo.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "Redução de Chance de Alarme por Nível de Elétrica",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "Reduz a chance de disparar alarmes a cada nível de Elétrica.",
+}

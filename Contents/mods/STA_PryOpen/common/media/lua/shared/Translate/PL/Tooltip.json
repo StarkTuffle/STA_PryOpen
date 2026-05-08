@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "Siła %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "Wymaga sprawnego łomu.",
+    "Tooltip_STA_PryOpen_chanceInjury": "Szansa na obrażenia:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1 jest już odblokowane lub otwarte."
+}

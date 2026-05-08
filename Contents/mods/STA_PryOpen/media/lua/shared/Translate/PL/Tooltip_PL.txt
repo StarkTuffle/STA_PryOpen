@@ -1,0 +1,6 @@
+Tooltip_PL = {
+    Tooltip_STA_PryOpen_ReqStrength = "Si³a %1/%2.",
+    Tooltip_STA_PryOpen_NeedCrowbar = "Wymaga sprawnego ³omu.",
+    Tooltip_STA_PryOpen_chanceInjury = "Szansa na obra¿enia:",
+    Tooltip_STA_PryOpen_alreadyUnlocked = "%1 jest ju¿ odblokowane lub otwarte.",
+}

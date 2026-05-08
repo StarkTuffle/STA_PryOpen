@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Ajustes",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "Habilitar Reproductor Dice Resultados",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Habilita la opción de recibir una notificación de texto si un intento de intrusión tiene éxito o falla.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Volumen de Palanca",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Ajusta el volumen de los sonidos durante la acción de forzar la apertura."
+}
