@@ -32,7 +32,8 @@ description=[tr][td]Unstable (b42.17)[/td][td]✅[/td][td]✅[/td][/tr]
 description=[tr][td]OutdatedUnstable (b42.16.3)[/td][td]✅[/td][td]✅[/td][/tr][/table]
 description=
 description=[h3] Show Your Support or Come Say Hello [/h3]
-description=[url=https://discord.gg/sqE9eK4Xav][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/refs/heads/main/PZmodCommBanner3.png[/img][/url]
+description=[url=https://discord.gg/sqE9eK4Xav][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/refs/heads/main/PZmodCommBanner2.png[/img][/url]
+description=[url=https://github.com/StarkTuffle/STA_PryOpen][img]https://immich.odraefys.dev/api/assets/cc2842d5-0fd0-4c8d-a4db-530e8c0fb4bd/original?slug=GithubBanner[/img][/url]
 description=[img]https://i.imgur.com/XRG7Sqm.gif[/img]
 tags=Build 41;Build 42;QoL;Realistic
 visibility=public
