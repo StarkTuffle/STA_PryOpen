@@ -24,9 +24,9 @@ This mod lets you use a crowbar to pry open a variety of locked objects. Success
 
 | Version | Singleplayer | Multiplayer |
 | ------- | ------------ | ----------- |
-| b41.78.18 | ✅ | ✅ |
+| b41.78.19 | ✅ | ✅ |
+| b42.18.0 | ✅ | ✅ |
 | b42.17.0 | ✅ | ✅ |
-| b42.16.3 | ✅ | ✅ |
 
 ---
 

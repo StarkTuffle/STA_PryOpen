@@ -27,13 +27,13 @@ description=[*]German (Thanks to [url=https://steamcommunity.com/id/RessiX]Ressi
 description=[*]Turkish (Thanks to [url=https://steamcommunity.com/profiles/76561199275317526]zangetsu_TR[/url])[/list]
 description=[hr][/hr][h2] Compatibility [/h2]
 description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
-description=[tr][td]Stable (b41.78)[/td][td]✅[/td][td]✅[/td][/tr]
-description=[tr][td]Unstable (b42.17)[/td][td]✅[/td][td]✅[/td][/tr]
-description=[tr][td]OutdatedUnstable (b42.16.3)[/td][td]✅[/td][td]✅[/td][/tr][/table]
+description=[tr][td]Stable (b41.78.19)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]Unstable (b42.18.0)[/td][td]✅[/td][td]✅[/td][/tr]
+description=[tr][td]OutdatedUnstable (b42.17.0)[/td][td]✅[/td][td]✅[/td][/tr][/table]
 description=
 description=[h3] Show Your Support or Come Say Hello [/h3]
 description=[url=https://discord.gg/sqE9eK4Xav][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/refs/heads/main/PZmodCommBanner2.png[/img][/url]
-description=[url=https://github.com/StarkTuffle/STA_PryOpen][img]https://immich.odraefys.dev/api/assets/cc2842d5-0fd0-4c8d-a4db-530e8c0fb4bd/original?slug=GithubBanner[/img][/url]
+description=[url=https://github.com/StarkTuffle/STA_PryOpen][img]https://raw.githubusercontent.com/StarkTuffle/STAImages/refs/heads/main/GithubBanner.png[/img][/url]
 description=[img]https://i.imgur.com/XRG7Sqm.gif[/img]
 tags=Build 41;Build 42;QoL;Realistic
 visibility=public
