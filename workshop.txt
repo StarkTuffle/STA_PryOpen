@@ -24,7 +24,8 @@ description=[*]Italiano (Thanks to [url=https://steamcommunity.com/id/ZioMark]Zi
 description=[*]Thai (Thanks to [url=https://steamcommunity.com/id/Hate00]Hate[/url])
 description=[*]Polish (Thanks to [url=https://steamcommunity.com/profiles/76561198134301438]woziu23[/url])
 description=[*]German (Thanks to [url=https://steamcommunity.com/id/RessiX]RessiX[/url])
-description=[*]Turkish (Thanks to [url=https://steamcommunity.com/profiles/76561199275317526]zangetsu_TR[/url])[/list]
+description=[*]Turkish (Thanks to [url=https://steamcommunity.com/profiles/76561199275317526]zangetsu_TR[/url])
+description=[*]Dutch (Thanks to [url=https://steamcommunity.com/id/GeneralM13]General M-13[/url])[/list]
 description=[hr][/hr][h2] Compatibility [/h2]
 description=[table][tr][th]Version[/th][th]Singleplayer[/th][th]Multiplayer[/th][/tr]
 description=[tr][td]Stable (b41.78.19)[/td][td]✅[/td][td]✅[/td][/tr]

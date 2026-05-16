@@ -1,0 +1,24 @@
+{
+    "ContextMenu_STA_PryOpen_Pry": "Wrik %1 open",
+    "ContextMenu_STA_PryOpen_Window": "Raam",
+    "ContextMenu_STA_PryOpen_Building": "Deur",
+    "ContextMenu_STA_PryOpen_Garage": "Garage Deur",
+    "ContextMenu_STA_PryOpen_Secure": "Beveiligde deur",
+
+    "ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
+    "ContextMenu_STA_PryOpen_Vehicle_Generic": "Voertuig deur",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Voorkant",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "Midden",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "Achterkant",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "Achterkant",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "Achterbak",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Left": "Links",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "Rechts",
+    "ContextMenu_STA_PryOpen_Vehicle_Door": "Deur",
+    "ContextMenu_STA_PryOpen_Vehicle_DoorP": "Deuren",
+
+    "ContextMenu_STA_PryOpen_JobLabel": "Wrikken...",
+
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Koevoet nodig",
+    "ContextMenu_STA_PryOpen_Radial_NoStrength": "Niet sterk genoeg"
+}

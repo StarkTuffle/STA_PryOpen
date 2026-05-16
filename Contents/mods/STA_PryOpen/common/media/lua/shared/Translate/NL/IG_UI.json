@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "Ik moet een bruikbare koevoet gebruiken.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "Uitgeschakeld in de sandbox instellingen.",
+    "IGUI_STA_PryOpen_RequiresStrength": "Krachtniveau %1. vereist",
+    "IGUI_STA_PryOpen_CantPry": "Ik kan dat niet open wrikken.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "Geen afgesloten autodeuren of kofferbakken.",
+    "IGUI_STA_PryOpen_Chance": "Kans van slagen: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "Sesam open u!.",
+    "IGUI_STA_PryOpen_Success_2": "Heb hem open gekregen!",
+    "IGUI_STA_PryOpen_Success_3": "Dat werkte!.",
+    "IGUI_STA_PryOpen_Success_4": "Appeltje Eitje!.",
+    "IGUI_STA_PryOpen_Success_5": "Koevoet Magie!",
+    "IGUI_STA_PryOpen_Failure_1": "Geen beweging in te krijgen...",
+    "IGUI_STA_PryOpen_Failure_2": "Zit erger op slot dan de kluis van een bank.",
+    "IGUI_STA_PryOpen_Failure_3": "Kom op zeg...",
+    "IGUI_STA_PryOpen_Failure_4": "Geen geluk deze keer.",
+    "IGUI_STA_PryOpen_Failure_5": "Verdraaid ding is geen beweging in te krijgen.",
+    "IGUI_STA_PryOpen_Injury_1": "Ik heb mijn hand bezeerd, Ik heb een verbandje nodig!.",
+    "IGUI_STA_PryOpen_Injury_2": "Ahh! Dat deed pijn!.",
+    "IGUI_STA_PryOpen_Injury_3": "Auw!, Ik denk dat ik een snijwond heb.",
+    "IGUI_STA_PryOpen_Injury_4": "Had voorzichtiger moeten zijn.",
+    "IGUI_STA_PryOpen_Injury_5": "Dat gaat een litteken achterlaten."
+}

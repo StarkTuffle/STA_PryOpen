@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Instellingen",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "'Speler zegt resultaat' inschakelen",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Schakel deze optie in om een textnotificatie te krijgen van je geslaagde of gefaalde poging.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Koevoet Volume",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Regelt het volume van de geluiden tijdens het openwrikken."
+}
