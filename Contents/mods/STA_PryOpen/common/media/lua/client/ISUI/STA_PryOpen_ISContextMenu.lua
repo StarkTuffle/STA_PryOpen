@@ -218,7 +218,13 @@ function ContextMenu.onFillWorldContext(playerIdx, context, worldObjects, test)
                 end
             end
         else
-            option = context:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
+            for i,v in ipairs(context.options) do
+                if v.name == getText("Door") then
+                    local doorOption = v
+                    local doorSubMenu = context:getSubMenu(doorOption.subOption)
+                    option = doorSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
+                end
+            end
         end
         attachTooltip(option, playerObj, worldObj, category, "World")
     end
