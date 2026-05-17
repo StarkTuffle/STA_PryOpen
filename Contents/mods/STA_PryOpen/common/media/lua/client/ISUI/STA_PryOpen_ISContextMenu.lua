@@ -1,6 +1,6 @@
 local Utils = require "STA_PryOpen_Utils"
 local Log = require "STA_PryOpen_Log"
-ContextMenu = STA_PryOpen_ISContextMenu or {}
+local ContextMenu = STA_PryOpen_ISContextMenu or {}
 Log.info("Module loaded: STA_PryOpen_ISContextMenu")
 ContextMenu.modID = "STA_PryOpen"
 

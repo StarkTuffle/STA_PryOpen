@@ -2,7 +2,7 @@ require "TimedActions/STA_PryOpen_ISPryOpenAction"
 local Utils = require "STA_PryOpen_Utils"
 local Log = require "STA_PryOpen_Log"
 
-ContextMenu = STA_PryOpen_ISContextMenu or {}
+local ContextMenu = STA_PryOpen_ISContextMenu or {}
 ContextMenu.modID = "STA_PryOpen"
 
 local function clamp01(text,x)

@@ -1,6 +1,6 @@
 local Log = require "STA_PryOpen_Log"
 
-Client = STA_PryOpen_Client or {}
+local Client = STA_PryOpen_Client or {}
 Client.modID = "STA_PryOpen"
 
 Client.options = {

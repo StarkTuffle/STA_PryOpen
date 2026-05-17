@@ -2,7 +2,7 @@ local Log = require "STA_PryOpen_Log"
 local Config = require "STA_PryOpen_ModOptions"
 local Utils = require "STA_PryOpen_Utils"
 
-Client = STA_PryOpen_Client or {}
+local Client = STA_PryOpen_Client or {}
 Client.modID = "STA_PryOpen"
 
 local function resolveLocalPlayer(args)
