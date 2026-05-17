@@ -55,6 +55,7 @@ Utils.SandboxDefaults = {
     ["PryBonusSkillElectricity"] = 0.01,
     ["PryToolTagsList"] = "base:crowbar:1.0;",
     ["PryToolItemsList"] = "",
+    ["SecurityDoorHandling"] = 1,
 }
 
 -- Sandbox Functions

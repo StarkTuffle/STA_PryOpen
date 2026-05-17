@@ -49,21 +49,40 @@ function Client.onServerCommand(module, command, args)
             local objs = sq:getObjects()
             for i = 0, objs:size() - 1 do
                 local o = objs:get(i)
-                    if instanceof(o, "IsoWindow") then
-                        o:setIsLocked(false)
-                        ISWorldObjectContextMenu:onOpenCloseWindow(o, playerObj:getPlayerNum())
-                    end
-                    if instanceof(o, "IsoDoor") then
+                if instanceof(o, "IsoWindow") then
+                    o:setIsLocked(false)
+                    o:ToggleWindow(playerObj)
+                elseif instanceof(o, "IsoDoor") then
+                    if Utils.isSecurityDoor(o) then
+                        if Utils.getSandboxInt("SecurityDoorHandling") == 2 then
+                            o:setLocked(false)
+                            o:setLockedByKey(false)
+                            o:getProperties():unset("forceLocked")
+                            o:ToggleDoor(playerObj)
+                        else
+                            o:ToggleDoorSilent()
+                        end
+                    else
                         o:setLocked(false)
                         o:setLockedByKey(false)
-                        o:getProperties():unset("forceLocked")
-                        ISWorldObjectContextMenu:onOpenCloseDoor(o, playerObj:getPlayerNum())
+                        o:ToggleDoor(playerObj)
                     end
-                    if instanceof(o, "IsoThumpable") and o:isDoor() then
+                elseif instanceof(o, "IsoThumpable") and o:isDoor() then
+                    if Utils.isSecurityDoor(o) then
+                        if Utils.getSandboxInt("SecurityDoorHandling") == 2 then
+                            o:setLocked(false)
+                            o:setLockedByKey(false)
+                            o:getProperties():unset("forceLocked")
+                            o:ToggleDoor(playerObj)
+                        else
+                            o:ToggleDoorSilent()
+                        end
+                    else
                         o:setLocked(false)
                         o:setLockedByKey(false)
-                        ISWorldObjectContextMenu:onOpenCloseDoor(o, playerObj:getPlayerNum())
+                        o:ToggleDoor(playerObj)
                     end
+                end
             end
         end
     end
