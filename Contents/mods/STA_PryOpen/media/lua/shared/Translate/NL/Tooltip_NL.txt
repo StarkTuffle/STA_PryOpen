@@ -1,0 +1,6 @@
+Tooltip_NL = {
+    Tooltip_STA_PryOpen_ReqStrength = "Kracht %1/%2.",
+    Tooltip_STA_PryOpen_NeedCrowbar = "Vereist een bruikbare Koevoet.",
+    Tooltip_STA_PryOpen_chanceInjury = "Kans op verwonding:",
+    Tooltip_STA_PryOpen_alreadyUnlocked = "%1 is al open of niet op slot."
+}

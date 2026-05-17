@@ -1,0 +1,155 @@
+Sandbox_NL = {
+    Sandbox_STA_PryOpen = "ST Additions - Open Wrikken",
+
+    Sandbox_STA_PryOpen_PryEnablePity = "Medelijden systeem inschakelen",
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "Zet dit aan om wrikken makkelijker te maken na elke gefaalde poging. (1% bonus tot een max van 15%)",
+
+    Sandbox_STA_PryOpen_PryChanceBase = "Standaard Success %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "De basiskans op succes vóór modifiers.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "Kracht slagingskans bonus Per Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "Bonus op de slagingskans per Krachtniveau.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "Timmerwerk slagingskans bonus per niveau %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "Bonus op de slagingskans per timmerwerkniveau (alleen voor deuren en ramen van Sandbox_STA_PryOpenndard).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "Smid slagingskans bonus Per Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "Bonus op de slagingskans per smidsniveau (alleen voor veiligheidsdeuren en garagedeuren).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "Mechanica slagingskans bonus Per Level %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "Bonus op de slagingskans per Mechanica niveau (alleen voor voertuigdeuren en kofferbakken).",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "Inbreker karaktereigenschap bonuskans %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "Bonus op de slagingskans voor de Inbreker karaktereigenschap.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "Lenigheid Tijd Reductie",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "Tijdsreductie per level in Lenigheid.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous = "Bekwaamzaamheid Tijd Reductie",
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip = "Tijdsreductie per level in Bekwaamzaamheid.",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "Deur open Wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "Zet dit aan als je wilt dat spelers deuren kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "Min niveau Deuren",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "Minimum Krachtniveau waarbij spelers deuren van gebouwen open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "Deur kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "Succeskansvermenigvuldiger voor deuren van gebouwen (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "Tijd benodigd Deur wrikken",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "Het aantal seconden dat nodig is om te proberen de deuren van een gebouw open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "Raam open wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "Zet dit aan als je wilt dat spelers ramen kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "Min niveau Ramen",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "Minimum Krachtniveau waarbij spelers ramen van gebouwen open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "Raam kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "Succeskansvermenigvuldiger voor ramen van gebouwen (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "Tijd benodigd Raam wrikken",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "Het aantal seconden dat nodig is om te proberen de ramen van een gebouw open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "Garagedeur open Wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "Zet dit aan als je wilt dat spelers garagedeuren kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "Min niveau Garagedeuren",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "Minimum Krachtniveau waarbij spelers garagedeuren open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "Garagedeur kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "Succeskansvermenigvuldiger voor garagedeuren (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "Tijd benodigd Garagedeur wrikken",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "Het aantal seconden dat nodig is om te proberen de garagedeuren open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "Beveiligde deuren open Wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "Zet dit aan als je wilt dat spelers Beveiligde deuren kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "Min niveau Beveiligde deuren",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "Minimum Krachtniveau waarbij spelers beveiligde deuren open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "Beveiligde deur kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "Succeskansvermenigvuldiger voor beveiligde deuren (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "Tijd benodigd beveiligde deur wrikken",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "Het aantal seconden dat nodig is om te proberen de beveiligde deuren open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "Voertuigdeur open Wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "Zet dit aan als je wilt dat spelers voertuig deuren kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "Min niveau Voertuigdeuren",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "Minimum Krachtniveau waarbij spelers deuren van voertuigen open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "Voertuigdeur kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "Succeskansvermenigvuldiger voor voertuigdeuren (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "Tijd benodigd Voertuigdeur wrikken",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "Het aantal seconden dat nodig is om te proberen de voertuigdeuren open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "Kofferbak open Wrikken inschakelen",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "Zet dit aan als je wilt dat spelers Kofferbakken kunnen openwrikken met een koevoet.",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "Min niveau Kofferbak",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "Minimum Krachtniveau waarbij spelers do kofferbak voertuigen open kunnen wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "Kofferbak kans vermenigvuldiger %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "Succeskansvermenigvuldiger voor Kofferbakken (toegepast na bonussen).",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "Tijd benodigd Kofferbak wrikken",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "Het aantal seconden dat nodig is om te proberen de kofferbak van een voertuig open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "Raam breek kans %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "De kans in procenten dat een raam van een gebouw breekt nadat het niet gelukt is het open te breken.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "Voertuig Raam breek kans %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "De kans in procenten dat een raam van een voertuig breekt nadat het niet gelukt is het open te breken.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "Voertuig slot breek kans %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "De kans in procenten dat het slot van een voertuig breekt nadat het niet gelukt is het open te breken.",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "Verwondingskans %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "De kans in procenten op handletsel als gevolg van een mislukte poging om iets open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitSkin = "Dikke/Zwakke-Huid karaktereigenschap verwondingskans %",
+    Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip = "Bonus of straf op de kans op letsel voor de 'Dikke Huid' of 'Zwakke Huid' karaktereigenschappen.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "Verwonding is een schram %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "Percentage kans dat handletsel een schram is.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "Verwonding is een snee % %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "Percentage kans dat handletsel een snijwond is.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "Verwonding is een Diepe wond %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "Percentage kans dat handletsel een diepe wond is.",
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "Wrikken geluids radius",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "Hoeveel tegels het geluid van de koevoet aflegt om zomboids aan te trekken.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "Sluipvaardigheid geluid Reductie",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "Hoeveel tegels het geluid word gereduceerd per Sluipvaardigheidsniveau",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "Succes schakelt alarmen uit inschakelen",
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "Zet dit aan als je wilt dat het succesvol openbreken van een deur het alarm uitschakelt.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "Geforceerde alarmen inschakelen",
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "Schakel auto-/gebouwalarmen in wanneer de alarmkans in procenten wordt overschreden (anders worden alarmen alleen geactiveerd als de alarmkans in procenten wordt overschreden en het voertuig-/gebouwalarm eerder was ingeschakeld)..",
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "Alarm kans %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "De kans in procenten dat een alarm afgaat nadat het niet is gelukt iets open te wrikken.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "Elektronica Alarm kans Per niveau",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "Vermindering van de alarmkans per niveau van Elektronica.",
+
+    Sandbox_STA_PryOpen_PryToolItemsList = "Wrikgereedschap voorwerpen",
+    Sandbox_STA_PryOpen_PryToolItemsList_tooltip = "Waarden voor de basiskans van items. <LINE>Min: 0,00 Max: 5,00 <LINE>Formaat: 'Basis.Item:1,0' <LINE>Scheid items met ';'",
+
+    Sandbox_STA_PryOpen_PryToolTagsList = "Wrikgereedschap voorwerp labels",
+    Sandbox_STA_PryOpen_PryToolTagsList_tooltip = "Waarden voor de basiskans van itemtags. <LINE>Min: 0,00 Max: 5,00 <LINE>Formaat: 'base:tag:1,0' <LINE>Scheid tags met ';'",
+
+    Sandbox_STA_PryOpen_SecurityDoorHandling = "Afhandeling Beveilidge deuren",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_tooltip = "Hoe beveiligingsdeuren worden ontgrendeld.<LINE><LINE>Standaard: Beveiligingsdeuren blijven vergrendeld nadat ze zijn geopend, wat betekent dat ze opnieuw opengebroken moeten worden als ze achter je dichtvallen. <LINE>Volledig ontsloten: Veiligheidsdeuren ontgrendelen volledig en functioneren als gewone binnendeuren wanneer ze worden opengebroken.",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_option1 = "Standaard",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_option2 = "Volledig ontsloten"
+}
