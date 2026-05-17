@@ -78,3 +78,8 @@ Version 1.16.7
 - Updated Security Door Handling functionality
 - Added new sandbox option for choosing how security doors are handled.
 [ ------ ]
+[ Version 1.20.1 ]
+- Moved the Pry option to the Door submenu in b42 
+- Fixed global variables that should have been local
+- Added Dutch translation (Thank you General M-13)
+[ ------ ]
