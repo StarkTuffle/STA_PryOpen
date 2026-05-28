@@ -83,6 +83,7 @@ function Client.onServerCommand(module, command, args)
                         o:ToggleDoor(playerObj)
                     end
                 end
+                o:sync()
             end
         end
     end
