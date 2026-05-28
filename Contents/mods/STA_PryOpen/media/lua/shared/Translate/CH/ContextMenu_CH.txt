@@ -1,0 +1,24 @@
+ContextMenu_CH = {
+    ContextMenu_STA_PryOpen_Pry = "撬開 %1"
+    ContextMenu_STA_PryOpen_Window = "窗戶",
+    ContextMenu_STA_PryOpen_Building = "門",
+    ContextMenu_STA_PryOpen_Garage = "車庫大門",
+    ContextMenu_STA_PryOpen_Secure = "安全閘門",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%1 %2 %3",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "車門",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "前面",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "中間",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "後面",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "後面",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "後行李箱",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "左側",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "右側",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "車門",
+    ContextMenu_STA_PryOpen_Vehicle_DoorP = "車輛車門",
+
+    ContextMenu_STA_PryOpen_JobLabel = "正在撬開…",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "需要一根撬棍",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "力量不足"
+}

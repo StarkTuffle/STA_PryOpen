@@ -1,0 +1,150 @@
+Sandbox_CH = {
+    Sandbox_STA_PryOpen = "ST 附加元件 - 撬棍撬門"
+
+    Sandbox_STA_PryOpen_PryEnablePity = "啟用失敗補償系統"
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "切換是否在連續失敗後撬開變得更容易。 (從1%增加到15%)"
+
+    Sandbox_STA_PryOpen_PryChanceBase = "基本成功率 %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "修改前的初始成功率。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "每級力量加成 %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "每級力量等級提供的成功率加成。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "每級木工加成 %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "每級木工等級提供的成功率加成 (僅對標準門窗有效)。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "每級鍛造加成 %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "每級鍛造等級提供的成功率加成 (僅對安全門和車庫門有效)。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "每級技工加成 %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "每級技工等級提供的成功率加成 (僅對車門和後行李箱有效)。",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "竊賊特質加成 %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "竊賊特質提供的成功率加成。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "靈活技能時間縮短",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "每級靈活技能減少的動作所需要的時間。",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous = "靈巧技能時間縮短",
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip = "每級靈巧技能減少的動作所需要的時間。",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "啟用撬開房門",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "切換玩家是否能撬開建築物的門。",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "最低撬門等級",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "玩家撬開建築物的門所需要的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "撬門成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "撬開建築物的門的成功率乘數 (加成後應用)。",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "撬門動作時間",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "撬開建築物的門所需要的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "啟用撬開窗戶",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "切換玩家是否能撬開建築物的窗戶。",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "最低撬窗等級",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "玩家撬開建築物的窗戶所需要的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "撬窗成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "撬開建築物的窗戶的成功率乘數 (加成後套用)。",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "撬窗動作時間",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "嘗試撬開建築物窗戶所需要的的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "啟用撬開車庫大門",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "切換玩家是否能撬開車庫大門。",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "最低撬車庫大門等級",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "玩家撬開車庫大門所需要的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "撬車庫大門成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "撬開車庫大門的成功率乘數 (加成後套用)。",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "撬車庫大門動作時間",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "嘗試撬開車庫大門所需要的的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "啟用撬開安全閘門",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "切換玩家是否能撬開安全閘門。",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "最低撬安全閘門等級",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "玩家撬開安全閘門所需的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "安全閘門成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "撬開安全閘門的成功率乘數 (加成後套用)。",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "撬安全閘門動作時間",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "嘗試撬開安全閘門所需要的的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "啟用撬開車門",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "切換玩家是否能撬開車門。",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "最低撬車門等級",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "玩家撬開車門所需要的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "撬車門成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "撬開車門的成功率乘數 (加成後套用)。",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "撬車門動作時間",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "嘗試撬開車門所需要的的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "啟用撬開後行李箱",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "切換玩家是否能撬開車輛後行李箱。",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "最低撬開後行李箱等級",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "玩家撬開車輛後行李箱所需要的最低力量等級。",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "撬後行李箱成功率乘數 %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "撬開車輛後行李箱的成功率乘數 (加成後套用)。",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "撬後行李箱動作時間",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "嘗試撬開車輛後行李箱所需要的的時間 (秒)。",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "窗戶破碎機率 %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "撬開建築物窗戶失敗後破碎的百分比機率。",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "車窗破碎機率 %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "在撬車門失敗後車窗破碎的百分比機率。",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "車門鎖損壞率 %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "撬車門失敗後車門鎖損壞的百分比機率。",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "受傷機率 %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "撬開失敗後手部受傷的百分比機率。",
+
+    Sandbox_STA_PryOpen_PryBonusTraitSkin = "皮糙肉厚/細皮嫩肉特質受傷機率 %",
+    Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip = "皮糙肉厚/細皮嫩肉特質提供的受傷機率加成或懲罰。",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "受傷為刮傷機率 %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "手部受傷為刮傷的百分比機率。"
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "受傷為撕裂傷機率 %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "手部受傷為撕裂傷的百分比機率。"
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "受傷為深層傷口機率 %"
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "手部受傷為深層傷口的百分比機率。"
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "撬開的噪訊半徑",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "撬棍噪音傳播吸引殭屍的格數範圍。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "潛行技能噪音減免",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "每級潛行技能減少的撬棍噪音格數。",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "啟用成功撬開後停用警報"
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "切換是否在成功撬開後停用警報系統。"
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "啟用強制警報"
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "當 '警報機率' 觸發時, 強制啟用車輛/建築警報 (否則, 僅當 '警報機率' 觸發且車輛/建築本身有警報時才會觸發)。"
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "警報觸發機率 %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "撬開失敗後觸發警報的百分比機率。",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "每級電工技能警報減免",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "每級電工技能減少的警報觸發機率。",
+
+    Sandbox_STA_PryOpen_PryToolItemsList = "撬開工具物品",
+    Sandbox_STA_PryOpen_PryToolItemsList_tooltip = "物品的基礎成功率數值。 <LINE>最小值: 0.00 最大值: 5.00 <LINE>格式: 'Base.Item:1.0' <LINE>使用 ';' 分隔多個物品",
+
+    Sandbox_STA_PryOpen_PryToolTagsList = "撬開工具物品標籤",
+    Sandbox_STA_PryOpen_PryToolTagsList_tooltip = "物品標籤的基礎成功率數值。 <LINE>最小值: 0.00 最大值: 5.00 <LINE>格式: 'base:tag:1.0' <LINE>使用 ';' 分隔多個標籤",
+}

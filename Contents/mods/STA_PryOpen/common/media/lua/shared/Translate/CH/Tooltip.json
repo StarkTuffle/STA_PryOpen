@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "力量 %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "需要一個可用的撬棍。",
+    "Tooltip_STA_PryOpen_chanceInjury": "受傷機率:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1 已解鎖或已開啟。"
+}

@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "我需要一根可用的撬棍。",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "已被沙盒設定停用。",
+    "IGUI_STA_PryOpen_RequiresStrength": "需要力量等級 %1。",
+    "IGUI_STA_PryOpen_CantPry": "我無法撬開這個。",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "此處沒有上鎖的車門或行李箱。",
+    "IGUI_STA_PryOpen_Chance": "成功率: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "芝麻開門。",
+    "IGUI_STA_PryOpen_Success_2": "成功撬開!",
+    "IGUI_STA_PryOpen_Success_3": "此招管用。",
+    "IGUI_STA_PryOpen_Success_4": "小菜一碟。",
+    "IGUI_STA_PryOpen_Success_5": "撬棍魔法!",
+    "IGUI_STA_PryOpen_Failure_1": "不行... 紋絲不動。",
+    "IGUI_STA_PryOpen_Failure_2": "比銀行金庫還要牢固。",
+    "IGUI_STA_PryOpen_Failure_3": "加把勁啊...",
+    "IGUI_STA_PryOpen_Failure_4": "這次運氣不好。",
+    "IGUI_STA_PryOpen_Failure_5": "這破玩意兒卡死了。",
+    "IGUI_STA_PryOpen_Injury_1": "手受傷了，需要包紮。",
+    "IGUI_STA_PryOpen_Injury_2": "啊! 好痛。",
+    "IGUI_STA_PryOpen_Injury_3": "嗷, 估計劃傷手了。",
+    "IGUI_STA_PryOpen_Injury_4": "應該更小心點的。",
+    "IGUI_STA_PryOpen_Injury_5": "這下準備要留個傷疤了。"
+}
