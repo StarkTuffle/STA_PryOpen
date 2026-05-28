@@ -83,3 +83,8 @@ Version 1.16.7
 - Fixed global variables that should have been local
 - Added Dutch translation (Thank you General M-13)
 [ ------ ]
+[ Version 1.20.2 ]
+- Fixed MP desync issue
+- Fixed incompatibility with nil id vehicle parts
+- Added Traditional Chinese translation (Thank you kyo2002tw)
+[ ------ ]
