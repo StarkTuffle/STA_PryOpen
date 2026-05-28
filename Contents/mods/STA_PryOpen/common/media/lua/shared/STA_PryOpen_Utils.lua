@@ -345,7 +345,7 @@ function Utils.getVehicleCategoryForPart(part)
     local id = tostring(part and part:getId() or ""):lower()
     if id:find("trunk") then
         return "Trunk"
-    elseif id:find("door") and part:getDoor() then
+    elseif (id:find("door") and part:getDoor()) or (part and part.getDoor and part:getDoor()) then
         return "Vehicle"
     else
         return nil
