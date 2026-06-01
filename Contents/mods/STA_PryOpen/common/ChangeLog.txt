@@ -88,3 +88,6 @@ Version 1.16.7
 - Fixed incompatibility with nil id vehicle parts
 - Added Traditional Chinese translation (Thank you kyo2002tw)
 [ ------ ]
+[ Version 1.20.3 ]
+- Removed Security Door Handling for b42.19
+[ ------ ]
