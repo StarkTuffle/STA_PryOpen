@@ -293,3 +293,9 @@ option STA_PryOpen.PryToolTagsList
     type = string, default = base:crowbar:1.0;,
     page = STA_PryOpen, translation = STA_PryOpen_PryToolTagsList,
 }
+
+option STA_PryOpen.SecurityDoorHandling
+{
+    type = enum, default = 1, numValues = 2,
+    page = STA_PryOpen, translation = STA_PryOpen_SecurityDoorHandling,
+}

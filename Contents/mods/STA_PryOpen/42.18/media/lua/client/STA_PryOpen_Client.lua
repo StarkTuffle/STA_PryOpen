@@ -52,10 +52,36 @@ function Client.onServerCommand(module, command, args)
                 if instanceof(o, "IsoWindow") then
                     o:setIsLocked(false)
                     o:ToggleWindow(playerObj)
-                elseif instanceof(o, "IsoDoor") or (instanceof(o, "IsoThumpable") and o:isDoor()) then
-                    o:setLocked(false)
-                    o:setLockedByKey(false)
-                    o:ToggleDoor(playerObj)
+                elseif instanceof(o, "IsoDoor") then
+                    if Utils.isSecurityDoor(o) then
+                        if Utils.getSandboxInt("SecurityDoorHandling") == 2 then
+                            o:setLocked(false)
+                            o:setLockedByKey(false)
+                            o:getProperties():unset("forceLocked")
+                            o:ToggleDoor(playerObj)
+                        else
+                            o:ToggleDoorSilent()
+                        end
+                    else
+                        o:setLocked(false)
+                        o:setLockedByKey(false)
+                        o:ToggleDoor(playerObj)
+                    end
+                elseif instanceof(o, "IsoThumpable") and o:isDoor() then
+                    if Utils.isSecurityDoor(o) then
+                        if Utils.getSandboxInt("SecurityDoorHandling") == 2 then
+                            o:setLocked(false)
+                            o:setLockedByKey(false)
+                            o:getProperties():unset("forceLocked")
+                            o:ToggleDoor(playerObj)
+                        else
+                            o:ToggleDoorSilent()
+                        end
+                    else
+                        o:setLocked(false)
+                        o:setLockedByKey(false)
+                        o:ToggleDoor(playerObj)
+                    end
                 end
                 o:sync()
             end
