@@ -209,22 +209,16 @@ function ContextMenu.onFillWorldContext(playerIdx, context, worldObjects, test)
         category = Utils.getWorldCategoryForObject(worldObj)
         if not Utils.isCategoryEnabled(category) then return end
         label = getText("ContextMenu_STA_PryOpen_Pry", getText("ContextMenu_STA_PryOpen_" .. category))
-        if category == "Window" then
-            for i,v in ipairs(context.options) do
-                if v.name == getText("Window") then
-                    local windowOption = v
-                    local windowSubMenu = context:getSubMenu(windowOption.subOption)
-                    option = windowSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
-                end
-            end
+
+        local windowSubMenu = context:getOptionFromName(getText("Window")) and context:getSubMenu(context:getOptionFromName(getText("Window")).subOption)
+        local doorSubMenu = context:getOptionFromName(getText("Door")) and context:getSubMenu(context:getOptionFromName(getText("Door")).subOption)
+
+        if category == "Window" and windowSubMenu then
+            option = windowSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
+        elseif doorSubMenu then
+            option = doorSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
         else
-            for i,v in ipairs(context.options) do
-                if v.name == getText("Door") then
-                    local doorOption = v
-                    local doorSubMenu = context:getSubMenu(doorOption.subOption)
-                    option = doorSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
-                end
-            end
+            option = context:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
         end
         attachTooltip(option, playerObj, worldObj, category, "World")
     end
