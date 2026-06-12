@@ -178,6 +178,7 @@ function STA_PryOpen_ISPryOpenAction:complete()
 
             if instanceof(obj, "IsoWindow") then
                 obj:setIsLocked(false)
+                obj:setPermaLocked(false)
             elseif instanceof(obj, "IsoDoor") or (instanceof(obj, "IsoThumpable") and obj:isDoor()) then
                 obj:setLockedByKey(false)
                 obj:setLocked(false)
