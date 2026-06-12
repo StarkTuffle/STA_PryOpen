@@ -4,6 +4,6 @@ poster=poster.png
 icon=icon.png
 id=STA_PryOpen
 description=Pry open doors and windows with a crowbar.
-modversion=1.20.4
+modversion=1.20.5
 versionMin=41.0
 versionMax=41.78.19

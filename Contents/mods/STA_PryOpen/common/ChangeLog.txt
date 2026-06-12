@@ -96,3 +96,6 @@ Version 1.16.7
 - Resolved stuck windows being un-pryable in b42.19
     NOTE: PermaLocked windows are now checked manually. If you come across a window that should not be able to be pried open, please report it on the Steam Workshop page.
 [ ------ ]
+[ Version 1.20.5 ]
+- Hotfix for new Window pry logic
+[ ------ ]
