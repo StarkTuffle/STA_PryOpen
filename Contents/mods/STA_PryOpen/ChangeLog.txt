@@ -91,3 +91,8 @@ Version 1.16.7
 [ Version 1.20.3 ]
 - Removed Security Door Handling for b42.19
 [ ------ ]
+[ Version 1.20.4 ]
+- Added fallback for when Door and Window submenus are not found
+- Resolved stuck windows being un-pryable in b42.19
+    NOTE: PermaLocked windows are now checked manually. If you come across a window that should not be able to be pried open, please report it on the Steam Workshop page.
+[ ------ ]

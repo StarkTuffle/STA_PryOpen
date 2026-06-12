@@ -1,7 +1,8 @@
 name=StarkTruffle Additions - Pry Open
 author=StarkTruffle
 poster=poster.png
+icon=icon.png
 id=STA_PryOpen
 description=Pry open doors and windows with a crowbar.
-modversion=1.20.3
+modversion=1.20.4
 versionMin=42.17
