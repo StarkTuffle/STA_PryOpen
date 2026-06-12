@@ -200,6 +200,135 @@ local SECURITY_DOORS = {
     "location_community_police_01_5",
 }
 
+local PERMALOCKED_WINDOWS = {
+    "fixtures_doors_01_104",
+    "fixtures_doors_01_105",
+    "fixtures_doors_01_112",
+    "fixtures_doors_01_113",
+
+    "fixtures_windows_01_40",
+    "fixtures_windows_01_41",
+    "fixtures_windows_01_42",
+    "fixtures_windows_01_43",
+    "fixtures_windows_01_48",
+    "fixtures_windows_01_49",
+    "fixtures_windows_01_50",
+    "fixtures_windows_01_51",
+    "fixtures_windows_01_72",
+    "fixtures_windows_01_73",
+
+    "location_community_church_small_01_112",
+    "location_community_church_small_01_113",
+    "location_community_church_small_01_114",
+    "location_community_church_small_01_115",
+    "location_community_church_small_01_116",
+    "location_community_church_small_01_117",
+    "location_community_church_small_01_118",
+    "location_community_church_small_01_119",
+    "location_community_church_small_01_120",
+    "location_community_church_small_01_121",
+    "location_community_church_small_01_122",
+    "location_community_church_small_01_123",
+    "location_community_church_small_01_124",
+    "location_community_church_small_01_125",
+    "location_community_church_small_01_126",
+    "location_community_church_small_01_127",
+
+    "location_community_police_01_36",
+    "location_community_police_01_37",
+    "location_community_police_01_38",
+    "location_community_police_01_39",
+    "location_community_police_01_40",
+    "location_community_police_01_41",
+
+    "location_entertainment_theatre_01_24",
+    "location_entertainment_theatre_01_25",
+    "location_entertainment_theatre_01_26",
+    "location_entertainment_theatre_01_27",
+
+    "location_hospitality_sunstarmotel_01_28",
+    "location_hospitality_sunstarmotel_01_29",
+    "location_hospitality_sunstarmotel_01_30",
+    "location_hospitality_sunstarmotel_01_31",
+
+    "location_restaurant_diner_01_8",
+    "location_restaurant_diner_01_9",
+    "location_restaurant_diner_01_10",
+    "location_restaurant_diner_01_11",
+    "location_restaurant_diner_01_12",
+    "location_restaurant_diner_01_13",
+
+    "location_restaurant_seahorse_01_16",
+    "location_restaurant_seahorse_01_17",
+    "location_restaurant_seahorse_01_18",
+    "location_restaurant_seahorse_01_19",
+    "location_restaurant_seahorse_01_20",
+    "location_restaurant_seahorse_01_21",
+
+    "location_restaurant_spiffos_01_4",
+    "location_restaurant_spiffos_01_5",
+    "location_restaurant_spiffos_01_6",
+    "location_restaurant_spiffos_01_12",
+    "location_restaurant_spiffos_01_13",
+    "location_restaurant_spiffos_01_14",
+    "location_restaurant_spiffos_01_16",
+    "location_restaurant_spiffos_01_17",
+    "location_restaurant_spiffos_01_18",
+    "location_restaurant_spiffos_01_19",
+    "location_restaurant_spiffos_01_20",
+    "location_restaurant_spiffos_01_21",
+
+    "location_shop_fossoil_01_0",
+    "location_shop_fossoil_01_2",
+
+    "location_shop_gas2go_01_8",
+    "location_shop_gas2go_01_9",
+
+    "location_shop_greenes_01_8",
+    "location_shop_greenes_01_9",
+    "location_shop_greenes_01_13",
+    "location_shop_greenes_01_14",
+    "location_shop_greenes_01_16",
+    "location_shop_greenes_01_17",
+    "location_shop_greenes_01_18",
+    "location_shop_greenes_01_19",
+
+    "walls_commercial_01_0",
+    "walls_commercial_01_1",
+    "walls_commercial_01_16",
+    "walls_commercial_01_17",
+    "walls_commercial_01_32",
+    "walls_commercial_01_33",
+    "walls_commercial_01_40",
+    "walls_commercial_01_41",
+    "walls_commercial_01_64",
+    "walls_commercial_01_65",
+    "walls_commercial_01_80",
+    "walls_commercial_01_81",
+    "walls_commercial_01_96",
+    "walls_commercial_01_97",
+    "walls_commercial_01_112",
+    "walls_commercial_01_113",
+
+    "walls_commercial_02_0",
+    "walls_commercial_02_1",
+    "walls_commercial_02_8",
+    "walls_commercial_02_9",
+    "walls_commercial_02_48",
+    "walls_commercial_02_49",
+    "walls_commercial_02_50",
+    "walls_commercial_02_51",
+    "walls_commercial_02_52",
+    "walls_commercial_02_53",
+    "walls_commercial_02_54",
+    "walls_commercial_02_55",
+    "walls_commercial_02_72",
+    "walls_commercial_02_73",
+    "walls_commercial_02_76",
+    "walls_commercial_02_77",
+
+}
+
 ---@param obj IsoObject
 ---@return String|nil
 local function getSpriteName(obj)
@@ -230,7 +359,13 @@ function Utils.isPryableWorldObject(obj)
     if instanceof(obj, "IsoWindow") then
         if obj:IsOpen() then return true end
         if obj:isSmashed() then return true end
-        if obj:isPermaLocked() then return false end
+        -- if obj:isPermaLocked() then return false end
+        if obj:isPermaLocked() then
+            local name = getSpriteName(obj)
+            for _, value in ipairs(PERMALOCKED_WINDOWS) do
+                if name == value then return false end
+            end
+        end
         if obj:isLocked() then return true end
         return true
     end
@@ -259,7 +394,13 @@ function Utils.isLockedWorldObject(obj)
     if instanceof(obj, "IsoWindow") then
         if obj:IsOpen() then return false end
         if obj:isSmashed() then return false end
-        if obj:isPermaLocked() then return false end
+        -- if obj:isPermaLocked() then return false end
+        if obj:isPermaLocked() then
+            local name = getSpriteName(obj)
+            for _, value in ipairs(PERMALOCKED_WINDOWS) do
+                if name == value then return false end
+            end
+        end
         if obj:isLocked() then return true end
         return false
     end
