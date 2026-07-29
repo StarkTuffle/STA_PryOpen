@@ -1,0 +1,24 @@
+ContextMenu_FR = {
+    ContextMenu_STA_PryOpen_Pry = "Forcer %1",
+    ContextMenu_STA_PryOpen_Window = "Fenêtre",
+    ContextMenu_STA_PryOpen_Building = "Porte",
+    ContextMenu_STA_PryOpen_Garage = "Porte de garage",
+    ContextMenu_STA_PryOpen_Secure = "Porte blindée",
+
+    ContextMenu_STA_PryOpen_Vehicle = "%1 %2 %3",
+    ContextMenu_STA_PryOpen_Vehicle_Generic = "Porte du véhicule",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Front = "Avant",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Middle = "Milieu",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Rear = "Arrière",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_RearP = "Arrière",
+    ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk = "Coffre",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Left = "gauche",
+    ContextMenu_STA_PryOpen_Vehicle_Side_Right = "droite",
+    ContextMenu_STA_PryOpen_Vehicle_Door = "Porte",
+    ContextMenu_STA_PryOpen_Vehicle_DoorP = "Portes",
+
+    ContextMenu_STA_PryOpen_JobLabel = "Forçage en cours...",
+
+    ContextMenu_STA_PryOpen_Radial_NoCrowbar = "Pied-de-biche requis",
+    ContextMenu_STA_PryOpen_Radial_NoStrength = "Force insuffisante"
+}

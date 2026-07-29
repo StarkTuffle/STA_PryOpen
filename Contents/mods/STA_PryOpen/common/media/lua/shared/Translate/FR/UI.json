@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Paramètres",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "Activer les répliques du joueur",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Active l'option pour afficher une notification textuelle (au-dessus du personnage) si une tentative de forçage réussit ou échoue.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Volume du pied-de-biche",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Ajuste le volume des sons émis pendant l'action de forçage."
+}

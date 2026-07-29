@@ -1,0 +1,23 @@
+IGUI_FR = {
+    IGUI_STA_PryOpen_NeedCrowbar = "J'ai besoin d'un pied-de-biche utilisable.",
+    IGUI_STA_PryOpen_DisabledBySandbox = "Désactivé par les paramètres du bac à sable.",
+    IGUI_STA_PryOpen_RequiresStrength = "Force requise : %1.",
+    IGUI_STA_PryOpen_CantPry = "Je ne peux pas forcer ça.",
+    IGUI_STA_PryOpen_NoLockedVehiclePart = "Aucune porte ou coffre de véhicule verrouillé ici.",
+    IGUI_STA_PryOpen_Chance = "Chances : %1%%",
+    IGUI_STA_PryOpen_Success_1 = "Sésame, ouvre-toi.",
+    IGUI_STA_PryOpen_Success_2 = "C'est ouvert !",
+    IGUI_STA_PryOpen_Success_3 = "Ça a fait l'affaire.",
+    IGUI_STA_PryOpen_Success_4 = "Simple comme bonjour.",
+    IGUI_STA_PryOpen_Success_5 = "La magie du pied-de-biche !",
+    IGUI_STA_PryOpen_Failure_1 = "Rien à faire... ça ne bouge pas.",
+    IGUI_STA_PryOpen_Failure_2 = "Plus fermé qu'un coffre de banque.",
+    IGUI_STA_PryOpen_Failure_3 = "Allez...",
+    IGUI_STA_PryOpen_Failure_4 = "Pas de chance cette fois.",
+    IGUI_STA_PryOpen_Failure_5 = "Cette saleté ne veut pas bouger.",
+    IGUI_STA_PryOpen_Injury_1 = "Je me suis amoché la main, il me faut un bandage.",
+    IGUI_STA_PryOpen_Injury_2 = "Aïe ! Ça fait mal.",
+    IGUI_STA_PryOpen_Injury_3 = "Ouille, je crois que je me suis coupé.",
+    IGUI_STA_PryOpen_Injury_4 = "J'aurais dû faire plus attention.",
+    IGUI_STA_PryOpen_Injury_5 = "Ça va laisser une marque."
+}

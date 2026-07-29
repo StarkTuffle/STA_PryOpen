@@ -1,0 +1,155 @@
+Sandbox_FR = {
+    Sandbox_STA_PryOpen = "ST Additions - Pry Open",
+
+    Sandbox_STA_PryOpen_PryEnablePity = "Activer le système de pitié",
+    Sandbox_STA_PryOpen_PryEnablePity_tooltip = "Détermine si le forçage devient plus facile après des échecs consécutifs. (Bonus de 1% jusqu'à 15%)",
+
+    Sandbox_STA_PryOpen_PryChanceBase = "Chance de réussite de base %",
+    Sandbox_STA_PryOpen_PryChanceBase_tooltip = "Chance de réussite de base avant les modificateurs.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillStrength = "Chance par niveau de force %",
+    Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip = "Bonus de chance de réussite par niveau de Force.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry = "Chance par niveau de menuiserie %",
+    Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip = "Bonus de chance de réussite par niveau de Menuiserie (uniquement pour les portes et fenêtres standards).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith = "Chance par niveau de forgeron %",
+    Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip = "Bonus de chance de réussite par niveau de Forge (uniquement pour les portes blindées et de garage).",
+
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics = "Chance par niveau de mécanique %",
+    Sandbox_STA_PryOpen_PryBonusSkillMechanics_tooltip = "Bonus de chance de réussite par niveau de Mécanique (uniquement pour les portes et coffres de véhicules).",
+
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar = "Chance du trait Cambrioleur %",
+    Sandbox_STA_PryOpen_PryBonusTraitBurglar_tooltip = "Bonus de chance de réussite pour le trait Cambrioleur.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillNimble = "Réduction du temps (Agilité)",
+    Sandbox_STA_PryOpen_PryBonusSkillNimble_tooltip = "Réduction du temps requis par niveau d'Agilité.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous = "Réduction du temps (Trait Dextre)",
+    Sandbox_STA_PryOpen_PryBonusTraitDextrous_tooltip = "Réduction du temps requis pour le trait Dextre.",
+
+    Sandbox_STA_PryOpen_PryEnableBuilding = "Autoriser le forçage des portes",
+    Sandbox_STA_PryOpen_PryEnableBuilding_tooltip = "Détermine si les joueurs peuvent forcer les portes des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryLevelBuilding = "Niveau min. pour les portes",
+    Sandbox_STA_PryOpen_PryLevelBuilding_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les portes des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding = "Multiplicateur de chance (Portes) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierBuilding_tooltip = "Multiplicateur de chance de réussite pour les portes de bâtiments (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeBuilding = "Temps d'action (Portes)",
+    Sandbox_STA_PryOpen_PryTimeBuilding_tooltip = "Secondes nécessaires pour tenter de forcer les portes des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryEnableWindow = "Autoriser le forçage des fenêtres",
+    Sandbox_STA_PryOpen_PryEnableWindow_tooltip = "Détermine si les joueurs peuvent forcer les fenêtres des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryLevelWindow = "Niveau min. pour les fenêtres",
+    Sandbox_STA_PryOpen_PryLevelWindow_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les fenêtres des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow = "Multiplicateur de chance (Fenêtres) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierWindow_tooltip = "Multiplicateur de chance de réussite pour les fenêtres de bâtiments (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeWindow = "Temps d'action (Fenêtres)",
+    Sandbox_STA_PryOpen_PryTimeWindow_tooltip = "Secondes nécessaires pour tenter de forcer les fenêtres des bâtiments.",
+
+    Sandbox_STA_PryOpen_PryEnableGarage = "Autoriser le forçage des garages",
+    Sandbox_STA_PryOpen_PryEnableGarage_tooltip = "Détermine si les joueurs peuvent forcer les portes de garage.",
+
+    Sandbox_STA_PryOpen_PryLevelGarage = "Niveau min. pour les garages",
+    Sandbox_STA_PryOpen_PryLevelGarage_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les portes de garage.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage = "Multiplicateur de chance (Garages) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierGarage_tooltip = "Multiplicateur de chance de réussite pour les portes de garage (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeGarage = "Temps d'action (Garages)",
+    Sandbox_STA_PryOpen_PryTimeGarage_tooltip = "Secondes nécessaires pour tenter de forcer les portes de garage.",
+
+    Sandbox_STA_PryOpen_PryEnableSecure = "Autoriser le forçage des portes blindées",
+    Sandbox_STA_PryOpen_PryEnableSecure_tooltip = "Détermine si les joueurs peuvent forcer les portes de sécurité/blindées.",
+
+    Sandbox_STA_PryOpen_PryLevelSecure = "Niveau min. pour le blindé",
+    Sandbox_STA_PryOpen_PryLevelSecure_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les portes de sécurité/blindées.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure = "Multiplicateur de chance (Blindé) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierSecure_tooltip = "Multiplicateur de chance de réussite pour les portes de sécurité/blindées (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeSecure = "Temps d'action (Blindé)",
+    Sandbox_STA_PryOpen_PryTimeSecure_tooltip = "Secondes nécessaires pour tenter de forcer les portes de sécurité/blindées.",
+
+    Sandbox_STA_PryOpen_PryEnableVehicle = "Autoriser le forçage des véhicules",
+    Sandbox_STA_PryOpen_PryEnableVehicle_tooltip = "Détermine si les joueurs peuvent forcer les portes des véhicules.",
+
+    Sandbox_STA_PryOpen_PryLevelVehicle = "Niveau min. pour les véhicules",
+    Sandbox_STA_PryOpen_PryLevelVehicle_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les portes des véhicules.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle = "Multiplicateur de chance (Véhicules) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierVehicle_tooltip = "Multiplicateur de chance de réussite pour les portes de véhicules (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeVehicle = "Temps d'action (Véhicules)",
+    Sandbox_STA_PryOpen_PryTimeVehicle_tooltip = "Secondes nécessaires pour tenter de forcer les portes des véhicules.",
+
+    Sandbox_STA_PryOpen_PryEnableTrunk = "Autoriser le forçage des coffres",
+    Sandbox_STA_PryOpen_PryEnableTrunk_tooltip = "Détermine si les joueurs peuvent forcer les coffres de véhicules.",
+
+    Sandbox_STA_PryOpen_PryLevelTrunk = "Niveau min. pour les coffres",
+    Sandbox_STA_PryOpen_PryLevelTrunk_tooltip = "Niveau de Force minimum à partir duquel les joueurs peuvent forcer les coffres de véhicules.",
+
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk = "Multiplicateur de chance (Coffres) %",
+    Sandbox_STA_PryOpen_PryChanceMultiplierTrunk_tooltip = "Multiplicateur de chance de réussite pour les coffres de véhicules (appliqué après les bonus).",
+
+    Sandbox_STA_PryOpen_PryTimeTrunk = "Temps d'action (Coffres)",
+    Sandbox_STA_PryOpen_PryTimeTrunk_tooltip = "Secondes nécessaires pour tenter de forcer les coffres de véhicules.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakWindow = "Chance de briser la fenêtre %",
+    Sandbox_STA_PryOpen_PryChanceBreakWindow_tooltip = "Pourcentage de chance qu'une fenêtre de bâtiment se brise après un échec de forçage.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow = "Chance de briser la vitre du véhicule %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleWindow_tooltip = "Pourcentage de chance qu'une vitre de véhicule se brise après un échec de forçage de la porte.",
+
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock = "Chance de briser la serrure du véhicule %",
+    Sandbox_STA_PryOpen_PryChanceBreakVehicleLock_tooltip = "Pourcentage de chance que la serrure d'une porte de véhicule se brise après un échec de forçage.",
+
+    Sandbox_STA_PryOpen_PryChanceInjury = "Chance de blessure %",
+    Sandbox_STA_PryOpen_PryChanceInjury_tooltip = "Pourcentage de chance de subir une blessure à la main après un échec de forçage.",
+
+    Sandbox_STA_PryOpen_PryBonusTraitSkin = "Chance de blessure (Traits Peau dure/fine) %",
+    Sandbox_STA_PryOpen_PryBonusTraitSkin_tooltip = "Bonus ou pénalité de chance de blessure pour les traits Peau dure ou Peau fine.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01 = "Blessure : Égratignure %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity01_tooltip = "Pourcentage de chance que la blessure à la main soit une égratignure.",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02 = "Blessure : Coupure %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity02_tooltip = "Pourcentage de chance que la blessure à la main soit une laceration (coupure).",
+
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03 = "Blessure : Blessure profonde %",
+    Sandbox_STA_PryOpen_PryChanceInjurySeverity03_tooltip = "Pourcentage de chance que la blessure à la main soit une blessure profonde.",
+
+    Sandbox_STA_PryOpen_PryNoiseRadius = "Rayon du bruit de forçage",
+    Sandbox_STA_PryOpen_PryNoiseRadius_tooltip = "Nombre de cases sur lesquelles le bruit du pied-de-biche se propage pour attirer les zombies.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillSneak = "Réduction du bruit (Discrétion)",
+    Sandbox_STA_PryOpen_PryBonusSkillSneak_tooltip = "Nombre de cases de réduction du bruit du pied-de-biche par niveau de Discrétion.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess = "Désactiver les alarmes en cas de réussite",
+    Sandbox_STA_PryOpen_PryEnableAlarmSuccess_tooltip = "Permet de désactiver les systèmes d'alarme après avoir réussi à forcer une ouverture.",
+
+    Sandbox_STA_PryOpen_PryEnableAlarmForce = "Forcer le déclenchement des alarmes",
+    Sandbox_STA_PryOpen_PryEnableAlarmForce_tooltip = "Active les alarmes de voiture/bâtiment lorsque le pourcentage de 'Chance d'alarme' est déclenché (sinon, les alarmes ne se déclenchent que si la chance est validée ET que l'alarme du véhicule/bâtiment était déjà active initialement).",
+
+    Sandbox_STA_PryOpen_PryChanceAlarm = "Chance d'alarme %",
+    Sandbox_STA_PryOpen_PryChanceAlarm_tooltip = "Pourcentage de chance qu'une alarme se déclenche après un échec de forçage.",
+
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity = "Chance d'alarme par niveau d'Électricité",
+    Sandbox_STA_PryOpen_PryBonusSkillElectricity_tooltip = "Réduction des chances d'alarme par niveau d'Électricité.",
+
+    Sandbox_STA_PryOpen_PryToolItemsList = "Objets outils de forçage",
+    Sandbox_STA_PryOpen_PryToolItemsList_tooltip = "Valeurs de chance de base pour des objets spécifiques. <LINE>Min: 0.00 Max: 5.00 <LINE>Formaté ainsi : 'Base.Item:1.0' <LINE>Séparez les objets avec ';'",
+
+    Sandbox_STA_PryOpen_PryToolTagsList = "Tags d'outils de forçage",
+    Sandbox_STA_PryOpen_PryToolTagsList_tooltip = "Valeurs de chance de base pour des tags d'objets. <LINE>Min: 0.00 Max: 5.00 <LINE>Formaté ainsi : 'base:tag:1.0' <LINE>Séparez les tags avec ';'",
+
+    Sandbox_STA_PryOpen_SecurityDoorHandling = "Gestion des portes de sécurité",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_tooltip = "Détermine comment les portes de sécurité sont déverrouillées. <LINE><LINE>Vanilla : Les portes de sécurité restent verrouillées après ouverture, ce qui signifie qu'elles devront être forcées à nouveau si elles se referment derrière vous. <LINE>Déverrouillage Complet : Les portes de sécurité se déverrouillent complètement et agissent comme des portes intérieures normales une fois forcées.",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_option1 = "Vanilla",
+    Sandbox_STA_PryOpen_SecurityDoorHandling_option2 = "Déverrouillage Complet"
+}

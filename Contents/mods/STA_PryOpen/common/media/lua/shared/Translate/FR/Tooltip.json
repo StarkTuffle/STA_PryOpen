@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "Force %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "Nécessite un pied-de-biche utilisable.",
+    "Tooltip_STA_PryOpen_chanceInjury": "Chance de blessure :",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1 est déjà déverrouillé ou ouvert."
+}
