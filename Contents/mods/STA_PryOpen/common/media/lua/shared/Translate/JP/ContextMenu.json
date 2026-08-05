@@ -1,0 +1,21 @@
+{
+    "ContextMenu_STA_PryOpen_Pry": "%1をこじ開ける",
+    "ContextMenu_STA_PryOpen_Window": "窓",
+    "ContextMenu_STA_PryOpen_Building": "ドア",
+    "ContextMenu_STA_PryOpen_Garage": "ガレージ",
+    "ContextMenu_STA_PryOpen_Secure": "セキュリティドア",
+    "ContextMenu_STA_PryOpen_Vehicle": "%1%2%3",
+    "ContextMenu_STA_PryOpen_Vehicle_Generic": "ドア",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "前部",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "中央",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "後部",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "後部",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "トランク",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Left": "左",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "右",
+    "ContextMenu_STA_PryOpen_Vehicle_Door": "ドア",
+    "ContextMenu_STA_PryOpen_Vehicle_DoorP": "ドア",
+    "ContextMenu_STA_PryOpen_JobLabel": "こじ開けている...",
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "バールが必要",
+    "ContextMenu_STA_PryOpen_Radial_NoStrength": "筋力が足りない"
+}

@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "使えるバールが必要だ",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "サンドボックス設定により無効化される",
+    "IGUI_STA_PryOpen_RequiresStrength": "筋力 %1 が必要",
+    "IGUI_STA_PryOpen_CantPry": "これはこじ開けられない",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "ここに施錠された車のドアやトランクはない",
+    "IGUI_STA_PryOpen_Chance": "成功確率: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "開けゴマ",
+    "IGUI_STA_PryOpen_Success_2": "開いた!",
+    "IGUI_STA_PryOpen_Success_3": "うまくいった",
+    "IGUI_STA_PryOpen_Success_4": "朝飯前だ",
+    "IGUI_STA_PryOpen_Success_5": "バールマジック!",
+    "IGUI_STA_PryOpen_Failure_1": "だめだ...動かない...",
+    "IGUI_STA_PryOpen_Failure_2": "銀行の金庫よりも厳重に施錠されているな...",
+    "IGUI_STA_PryOpen_Failure_3": "はぁ...",
+    "IGUI_STA_PryOpen_Failure_4": "今回はダメだった...",
+    "IGUI_STA_PryOpen_Failure_5": "まったく,動かないな...",
+    "IGUI_STA_PryOpen_Injury_1": "手を怪我したから,包帯が必要だ",
+    "IGUI_STA_PryOpen_Injury_2": "ああ!痛い!",
+    "IGUI_STA_PryOpen_Injury_3": "あ,手を切っちゃったみたい",
+    "IGUI_STA_PryOpen_Injury_4": "もっと注意すべきだった",
+    "IGUI_STA_PryOpen_Injury_5": "これじゃ、傷跡が残っちゃうよ"
+}

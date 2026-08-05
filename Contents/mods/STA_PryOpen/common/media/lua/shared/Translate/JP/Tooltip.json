@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "筋力 %1/%2.",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "使用可能なバールが必要です。",
+    "Tooltip_STA_PryOpen_chanceInjury": "負傷確率:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1は既に開錠されているか、開いています。"
+}
