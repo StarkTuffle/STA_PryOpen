@@ -4,7 +4,6 @@
     "ContextMenu_STA_PryOpen_Building": "Porta",
     "ContextMenu_STA_PryOpen_Garage": "Porta del garage",
     "ContextMenu_STA_PryOpen_Secure": "Porta di sicurezza",
-
     "ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
     "ContextMenu_STA_PryOpen_Vehicle_Generic": "Porta del veicolo",
     "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Anteriore",
@@ -16,9 +15,7 @@
     "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "Destra",
     "ContextMenu_STA_PryOpen_Vehicle_Door": "Porta",
     "ContextMenu_STA_PryOpen_Vehicle_DoorP": "Porte",
-
     "ContextMenu_STA_PryOpen_JobLabel": "Forzando...",
-    
     "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Serve un piede di porco",
     "ContextMenu_STA_PryOpen_Radial_NoStrength": "Forza insufficiente"
 }

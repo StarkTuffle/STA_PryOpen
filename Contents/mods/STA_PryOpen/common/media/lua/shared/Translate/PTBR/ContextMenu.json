@@ -4,7 +4,6 @@
     "ContextMenu_STA_PryOpen_Building": "Porta",
     "ContextMenu_STA_PryOpen_Garage": "Porta de Garagem",
     "ContextMenu_STA_PryOpen_Secure": "Porta de Segurança",
-
     "ContextMenu_STA_PryOpen_Vehicle": "%3 %1 %2",
     "ContextMenu_STA_PryOpen_Vehicle_Generic": "Porta do Veículo",
     "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Dianteira",
@@ -16,9 +15,7 @@
     "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "Direita",
     "ContextMenu_STA_PryOpen_Vehicle_Door": "Porta",
     "ContextMenu_STA_PryOpen_Vehicle_DoorP": "Portas",
-
     "ContextMenu_STA_PryOpen_JobLabel": "Arrombando...",
-
     "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Precisa de um pé de cabra",
     "ContextMenu_STA_PryOpen_Radial_NoStrength": "Força insuficiente"
 }
