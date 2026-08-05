@@ -102,3 +102,6 @@ Version 1.16.7
 [ Version 1.20.6 ]
 - Added French translation (Thank you Juniv3rs)
 [ ------ ]
+[ Version 1.20.7 ]
+- Updated translations for b42.20.1 
+[ ------ ]
