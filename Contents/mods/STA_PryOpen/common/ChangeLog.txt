@@ -107,6 +107,7 @@ Version 1.16.7
 [ ------ ]
 [ Version Dev ]
 - Added Japanese translation (Thank you irotto)
+- Fixed error when prying some external doors
 - Updated context submenu handling
 - Tweaked sandbox settings defaults
 [ ------ ]

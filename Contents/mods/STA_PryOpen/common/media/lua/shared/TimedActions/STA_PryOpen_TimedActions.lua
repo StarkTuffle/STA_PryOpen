@@ -143,7 +143,7 @@ function STA_PryOpen_ISPryOpenAction:complete()
             sq = obj:getIndoorSquare()
         else
             sq = obj:getOtherSideOfDoor(self.character)
-            if sq:isOutside() then
+            if not sq:getBuilding() then
                 Log.debug("Square for %s is outside; checking adjacent squares", self.category)
 
                 local cell = getCell()
@@ -152,14 +152,10 @@ function STA_PryOpen_ISPryOpenAction:complete()
                 for i = 1, #offsets do
                     local nx, ny = x + offsets[i][1], y + offsets[i][2]
                     local nsq = cell:getGridSquare(nx, ny, z)
-                    if not nsq:isOutside() then
+                    if nsq:getBuilding() then
                         sq = nsq
                         break
                     end
-                end
-                if not sq then
-                    Log.error("No building found for %s; aborting", self.category)
-                    return
                 end
             end
         end
@@ -171,7 +167,7 @@ function STA_PryOpen_ISPryOpenAction:complete()
         if success then
             Log.info("SUCCESS: %s unlocked @ %d,%d,%d", self.category, sq:getX(), sq:getY(), sq:getZ())
             if Utils.isCategoryEnabled("AlarmSuccess") then
-                if not sq:isOutside() then
+                if sq:getBuilding() then
                     sq:getBuilding():getDef():setAlarmed(false)
                 end
             end
