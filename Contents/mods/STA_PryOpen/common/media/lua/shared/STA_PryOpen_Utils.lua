@@ -407,7 +407,6 @@ function Utils.isLockedWorldObject(obj)
     ---@cast obj IsoDoor
     if instanceof(obj, "IsoDoor") then
         if obj:IsOpen() then return false end
-        if obj:getProperties():has("forceLocked") then return true end
         if obj:isLockedByKey() then return true end
         if obj:isLocked() then return true end
         return false
@@ -415,7 +414,6 @@ function Utils.isLockedWorldObject(obj)
     ---@cast obj IsoThumpable
     if instanceof(obj, "IsoThumpable") and obj:isDoor() then
         if obj:IsOpen() then return false end
-        if obj:getProperties():has("forceLocked") then return true end
         if obj:isLockedByKey() then return true end
         if obj:isLocked() then return true end
         return false
