@@ -210,8 +210,8 @@ function ContextMenu.onFillWorldContext(playerIdx, context, worldObjects, test)
         if not Utils.isCategoryEnabled(category) then return end
         label = getText("ContextMenu_STA_PryOpen_Pry", getText("ContextMenu_STA_PryOpen_" .. category))
 
-        local windowSubMenu = context:getOptionFromName(getText("Window")) and context:getSubMenu(context:getOptionFromName(getText("Window")).subOption)
-        local doorSubMenu = context:getOptionFromName(getText("Door")) and context:getSubMenu(context:getOptionFromName(getText("Door")).subOption)
+        local windowSubMenu = context:getOptionFromName(getText("Window")) and context:getSubMenu(context:getOptionFromName(getText("ContextMenu_Window")).subOption)
+        local doorSubMenu = context:getOptionFromName(getText("Door")) and context:getSubMenu(context:getOptionFromName(getText("ContextMenu_Door")).subOption)
 
         if category == "Window" and windowSubMenu then
             option = windowSubMenu:addOption(label, playerObj, ContextMenu.onPrySelect, worldObj, category, "World")
