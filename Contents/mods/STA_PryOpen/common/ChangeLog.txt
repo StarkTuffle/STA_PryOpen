@@ -105,7 +105,7 @@ Version 1.16.7
 [ Version 1.20.7 ]
 - Updated translations for b42.20.1 
 [ ------ ]
-[ Version Dev ]
+[ Version 1.21.0 ]
 - Added Japanese translation (Thank you irotto)
 - Fixed error when prying some external doors
 - Updated context submenu handling
