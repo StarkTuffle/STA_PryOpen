@@ -260,13 +260,13 @@ option STA_PryOpen.PryBonusSkillSneak
 
 option STA_PryOpen.PryEnableAlarmSuccess
 {
-    type = boolean, default = true,
+    type = boolean, default = false,
     page = STA_PryOpen, translation = STA_PryOpen_PryEnableAlarmSuccess,
 }
 
 option STA_PryOpen.PryEnableAlarmForce
 {
-    type = boolean, default = true,
+    type = boolean, default = false,
     page = STA_PryOpen, translation = STA_PryOpen_PryEnableAlarmForce,
 }
 

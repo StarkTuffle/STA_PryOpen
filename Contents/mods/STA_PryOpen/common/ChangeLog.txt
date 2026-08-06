@@ -108,4 +108,5 @@ Version 1.16.7
 [ Version Dev ]
 - Added Japanese translation (Thank you irotto)
 - Updated context submenu handling
+- Tweaked sandbox settings defaults
 [ ------ ]
