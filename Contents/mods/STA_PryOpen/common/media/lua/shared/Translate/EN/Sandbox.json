@@ -7,7 +7,7 @@
     "Sandbox_STA_PryOpen_PryBonusSkillStrength": "Strength Chance Per Level %%",
     "Sandbox_STA_PryOpen_PryBonusSkillStrength_tooltip": "Success chance bonus per Strength level.",
     "Sandbox_STA_PryOpen_PryBonusSkillCarpentry": "Carpentry Chance Per Level %%",
-    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip": "Success chance bonus per Carpentry level (only for Sandbox_STA_PryOpenndard doors and windows).",
+    "Sandbox_STA_PryOpen_PryBonusSkillCarpentry_tooltip": "Success chance bonus per Carpentry level (only for standard doors and windows).",
     "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith": "Blacksmith Chance Per Level %%",
     "Sandbox_STA_PryOpen_PryBonusSkillBlacksmith_tooltip": "Success chance bonus per Blacksmith level (only for security doors and garage doors).",
     "Sandbox_STA_PryOpen_PryBonusSkillMechanics": "Mechanics Chance Per Level %%",
