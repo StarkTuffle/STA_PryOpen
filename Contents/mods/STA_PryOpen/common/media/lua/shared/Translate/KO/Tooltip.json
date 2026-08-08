@@ -1,0 +1,6 @@
+{
+    "Tooltip_STA_PryOpen_ReqStrength": "근력 %1/%2",
+    "Tooltip_STA_PryOpen_NeedCrowbar": "사용 가능한 쇠지렛대가 필요합니다.",
+    "Tooltip_STA_PryOpen_chanceInjury": "부상 확률:",
+    "Tooltip_STA_PryOpen_alreadyUnlocked": "%1은(는) 이미 열려 있거나 잠겨 있지 않습니다."
+}

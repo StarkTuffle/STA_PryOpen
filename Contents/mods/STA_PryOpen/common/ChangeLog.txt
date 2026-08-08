@@ -111,3 +111,6 @@ Version 1.16.7
 - Updated context submenu handling
 - Tweaked sandbox settings defaults
 [ ------ ]
+[ Version Beta ]
+- Added Korean translation (Thank you Hagaren)
+[ ------ ]

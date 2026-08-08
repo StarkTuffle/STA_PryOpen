@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "설정",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "플레이어가 시도 결과 말하기 활성화",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "이 옵션을 활성화하면 시도 성공 또는 실패 시 텍스트 알림이 표시됩니다.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "쇠지렛대 소리 크기",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "강제로 열 때 재생되는 소리의 크기를 조절합니다."
+}

@@ -1,0 +1,21 @@
+{
+    "ContextMenu_STA_PryOpen_Pry": "%1 강제로 열기",
+    "ContextMenu_STA_PryOpen_Window": "창문",
+    "ContextMenu_STA_PryOpen_Building": "문",
+    "ContextMenu_STA_PryOpen_Garage": "차고 문",
+    "ContextMenu_STA_PryOpen_Secure": "보안문",
+    "ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
+    "ContextMenu_STA_PryOpen_Vehicle_Generic": "차량 문",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "앞쪽",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "중앙",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "뒤쪽",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "뒤쪽",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "트렁크",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Left": "왼쪽",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "오른쪽",
+    "ContextMenu_STA_PryOpen_Vehicle_Door": "문",
+    "ContextMenu_STA_PryOpen_Vehicle_DoorP": "문",
+    "ContextMenu_STA_PryOpen_JobLabel": "강제로 여는 중...",
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "쇠지렛대 필요",
+    "ContextMenu_STA_PryOpen_Radial_NoStrength": "근력 부족"
+}

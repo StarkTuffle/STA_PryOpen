@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "사용 가능한 쇠지렛대가 필요해.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "샌드박스 설정으로 인해 비활성화되었습니다.",
+    "IGUI_STA_PryOpen_RequiresStrength": "근력 %1 필요",
+    "IGUI_STA_PryOpen_CantPry": "이건 강제로 열 수 없어.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "여기엔 잠긴 차량 문이나 트렁크가 없어.",
+    "IGUI_STA_PryOpen_Chance": "확률: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "열려라 참깨.",
+    "IGUI_STA_PryOpen_Success_2": "열었다!",
+    "IGUI_STA_PryOpen_Success_3": "통했군.",
+    "IGUI_STA_PryOpen_Success_4": "식은 죽 먹기지.",
+    "IGUI_STA_PryOpen_Success_5": "역시 쇠지렛대의 마법이란!",
+    "IGUI_STA_PryOpen_Failure_1": "안 되겠어... 꿈쩍도 안 하네.",
+    "IGUI_STA_PryOpen_Failure_2": "은행 금고보다 단단히 잠겼잖아.",
+    "IGUI_STA_PryOpen_Failure_3": "제발...",
+    "IGUI_STA_PryOpen_Failure_4": "이번엔 운이 안 따랐군.",
+    "IGUI_STA_PryOpen_Failure_5": "젠장, 꼼짝도 안 하네.",
+    "IGUI_STA_PryOpen_Injury_1": "손을 다쳤어, 붕대가 필요하겠는데.",
+    "IGUI_STA_PryOpen_Injury_2": "윽! 아프네.",
+    "IGUI_STA_PryOpen_Injury_3": "아야, 베인 것 같은데.",
+    "IGUI_STA_PryOpen_Injury_4": "좀 더 조심했어야 했는데.",
+    "IGUI_STA_PryOpen_Injury_5": "이건 흉터가 남겠는걸."
+}
