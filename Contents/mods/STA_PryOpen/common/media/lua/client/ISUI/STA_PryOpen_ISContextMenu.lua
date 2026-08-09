@@ -52,7 +52,7 @@ local function buildDisableReasons(playerObj, category)
     end
 
     local ok, current, required = Utils.meetsStrengthRequirement(playerObj, category)
-    if not ok then
+    if not ok and not Utils.isCategoryEnabled("SoftMin") then
         reasons[#reasons+1] = { "Tooltip_STA_PryOpen_ReqStrength", tostring(required), tostring(current) }
         playerObj:Say(getText("IGUI_STA_PryOpen_RequiresStrength", tostring(required)))
     end
@@ -116,13 +116,14 @@ local function attachTooltip(option, playerObj, target, category, type)
 
     local crowbar = Utils.findUsablePryTool(playerObj)
     local ok, current, required = Utils.meetsStrengthRequirement(playerObj, category)
+    local softmin = Utils.isCategoryEnabled("SoftMin")
     local success = Utils.computePrySuccessChance(playerObj, category, crowbar)
     local fail = Utils.computeFailureChances(playerObj)
     local injury = (0.5 * fail.PryChanceInjuryL) + (0.5 * fail.PryChanceInjuryR)
     local injuryMax = math.floor((100 * (Utils.clamp(Utils.getSandboxNum("PryChanceInjury") + Utils.getSandboxNum("PryBonusTraitSkin")))) or 0)
     local damage
 
-    if current < required then option.notAvailable = true end
+    if current < required and not softmin then option.notAvailable = true end
     if type == "World" and not Utils.isLockedWorldObject(target) then
         tooltip.description = getText("Tooltip_STA_PryOpen_alreadyUnlocked", getText("ContextMenu_STA_PryOpen_" .. tostring(category)))
         option.toolTip = tooltip
@@ -149,7 +150,14 @@ local function attachTooltip(option, playerObj, target, category, type)
     end
 
     local rgb = ISVehicleMechanics.ghs
-    if not ok then rgb = ISVehicleMechanics.bhs end
+    if not ok then
+        if softmin then
+            rgb = "<ORANGE>"
+        else
+            rgb = ISVehicleMechanics.bhs
+        end
+    end
+
     tooltip.description = tooltip.description .. " " .. rgb .. getText("IGUI_perks_Strength") .. " " .. current .. "/" .. required .. " <LINE>"
 
     tooltip.description = tooltip.description .. " <LINE>"

@@ -19,7 +19,7 @@ local function validateCommon(self)
     if not self.crowbar then return false end
 
     local okStrength = Utils.meetsStrengthRequirement(self.character, self.category)
-    if not okStrength and not Utils.isCategoryEnabled("SoftMin") then
+    if not okStrength then
         return false
     end
 
@@ -131,7 +131,7 @@ function STA_PryOpen_ISPryOpenAction:complete()
         Log.debug("World target: sprite=%s cat=%s", tostring(obj:getSprite():getName()), self.category)
 
         if not Utils.isCategoryEnabled(self.category) then Log.info("Denied: category disabled (%s)", self.category) return end
-        if not Utils.meetsStrengthRequirement(self.character, self.category) and not Utils.isCategoryEnabled("SoftMin") then Log.info("Denied: strength too low for %s", self.category) return end
+        if not Utils.meetsStrengthRequirement(self.character, self.category) then Log.info("Denied: strength too low for %s", self.category) return end
         if not Utils.findUsablePryTool(self.character) then Log.info("Denied: no crowbar") return end
         if not Utils.isLockedWorldObject(obj) then Log.info("Denied: not locked") return end
         if Utils.isBarricadedForPlayer(obj, self.character) then Log.info("Denied: is barricaded for player") return end
@@ -297,7 +297,7 @@ function STA_PryOpen_ISPryOpenAction:complete()
         Log.debug("Vehicle target: id=%s part=%s cat=%s", tostring(vehicle:getId()), tostring(part:getId()), self.category)
 
         if not Utils.isCategoryEnabled(self.category) then return end
-        if not Utils.meetsStrengthRequirement(self.character, self.category) and not Utils.isCategoryEnabled("SoftMin") then return end
+        if not Utils.meetsStrengthRequirement(self.character, self.category) then return end
         if not Utils.findUsablePryTool(self.character) then return end
         if not part:getDoor() or not part:getDoor():isLocked() then return end
 

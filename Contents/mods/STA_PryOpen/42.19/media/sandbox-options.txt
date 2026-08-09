@@ -12,18 +12,6 @@ option STA_PryOpen.PryChanceBase
     page = STA_PryOpen, translation = STA_PryOpen_PryChanceBase,
 }
 
-option STA_PryOpen.PryEnableSoftMin
-{
-    type = boolean, default = false,
-    page = STA_PryOpen, translation = STA_PryOpen_PryEnableSoftMin,
-}
-
-option STA_PryOpen.PryBonusSoftMin
-{
-    type = double, min = 0.00, max = 1.00, default = 0.50,
-    page = STA_PryOpen, translation = STA_PryOpen_PryBonusSoftMin,
-}
-
 option STA_PryOpen.PryBonusSkillStrength
 {
     type = double, min = 0.00, max = 1.00, default = 0.03,
