@@ -727,6 +727,21 @@ local function applyPityBonus(playerObj, baseChance)
 end
 
 ---@param playerObj IsoPlayer
+---@param category string | nil
+---@param baseChance number
+---@return number
+local function applySoftMinBonus(playerObj, category, baseChance)
+    if Utils.isCategoryEnabled("SoftMin") then
+        local required = Utils.getCategoryStrength(category)
+        local current = playerObj:getPerkLevel(Perks.Strength)
+        if current < required then
+            return Utils.getSandboxNum("PryBonusSoftMin") * baseChance
+        end
+    end
+    return baseChance
+end
+
+---@param playerObj IsoPlayer
 ---@return number
 ---@return number
 local function glovesMitigationMultiplier(playerObj)
@@ -774,6 +789,7 @@ function Utils.computePrySuccessChance(playerObj, category, crowbar)
 
     chance = chance * Utils.getSandboxNum("PryChanceMultiplier" .. category)
     chance = applyPityBonus(playerObj, chance)
+    chance = applySoftMinBonus(playerObj, category, chance)
     return Utils.clamp(chance, 0.99)
 end
 
