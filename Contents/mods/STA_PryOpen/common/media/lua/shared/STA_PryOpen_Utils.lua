@@ -570,7 +570,7 @@ end
 ---@return integer
 ---@return integer
 function Utils.meetsStrengthRequirement(playerObj, category)
-    local required = STA_PryOpen_Utils.getCategoryStrength(category)
+    local required = Utils.getCategoryStrength(category)
     if not playerObj then
         return false, 0, required
     end
