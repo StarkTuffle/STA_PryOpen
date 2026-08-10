@@ -111,6 +111,7 @@ Version 1.16.7
 - Updated context submenu handling
 - Tweaked sandbox settings defaults
 [ ------ ]
-[ Version Beta ]
+[ Version 1.22.0 ]
+- Added sandbox option for soft minimum required strength
 - Added Korean translation (Thank you Hagaren)
 [ ------ ]
