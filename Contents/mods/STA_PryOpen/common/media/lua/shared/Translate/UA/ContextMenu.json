@@ -1,0 +1,21 @@
+{
+    "ContextMenu_STA_PryOpen_Pry": "Зламати %1",
+    "ContextMenu_STA_PryOpen_Window": "Вікно",
+    "ContextMenu_STA_PryOpen_Building": "Двері",
+    "ContextMenu_STA_PryOpen_Garage": "Гаражні ворота",
+    "ContextMenu_STA_PryOpen_Secure": "Броньовані двері",
+    "ContextMenu_STA_PryOpen_Vehicle": "%1 %2 %3",
+    "ContextMenu_STA_PryOpen_Vehicle_Generic": "Двері транспорту",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Front": "Передні",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Middle": "Середні",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Rear": "Задні",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_RearP": "Задні",
+    "ContextMenu_STA_PryOpen_Vehicle_Loc_Trunk": "Багажник",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Left": "ліві",
+    "ContextMenu_STA_PryOpen_Vehicle_Side_Right": "праві",
+    "ContextMenu_STA_PryOpen_Vehicle_Door": "двері",
+    "ContextMenu_STA_PryOpen_Vehicle_DoorP": "двері",
+    "ContextMenu_STA_PryOpen_JobLabel": "Зламую...",
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Потрібен лом",
+    "ContextMenu_STA_PryOpen_Radial_NoStrength": "Недостатньо сили"
+}

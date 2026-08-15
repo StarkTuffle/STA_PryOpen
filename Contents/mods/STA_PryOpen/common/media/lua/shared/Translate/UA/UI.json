@@ -1,0 +1,7 @@
+{
+    "UI_STA_PryOpen_Options_Settings": "Налаштування",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess": "Увімкнути репліки персонажа про результат",
+    "UI_STA_PryOpen_Options_CharacterSayOnSuccess_tooltip": "Вмикає текстові повідомлення персонажа про успіх або невдачу злому.",
+    "UI_STA_PryOpen_Options_VolumeAdjust": "Гучність лома",
+    "UI_STA_PryOpen_Options_VolumeAdjust_tooltip": "Регулює гучність звуків під час дії «Зламати»."
+}

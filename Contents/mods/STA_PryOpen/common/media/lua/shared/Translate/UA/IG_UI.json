@@ -1,0 +1,23 @@
+{
+    "IGUI_STA_PryOpen_NeedCrowbar": "Мені потрібен справний лом.",
+    "IGUI_STA_PryOpen_DisabledBySandbox": "Вимкнено налаштуваннями пісочниці.",
+    "IGUI_STA_PryOpen_RequiresStrength": "Потрібна сила %1.",
+    "IGUI_STA_PryOpen_CantPry": "Я не можу це зламати.",
+    "IGUI_STA_PryOpen_NoLockedVehiclePart": "Тут немає замкнених дверей чи багажника.",
+    "IGUI_STA_PryOpen_Chance": "Шанс: %1%%",
+    "IGUI_STA_PryOpen_Success_1": "Сезаме, відчинись.",
+    "IGUI_STA_PryOpen_Success_2": "Відчинилося!",
+    "IGUI_STA_PryOpen_Success_3": "Спрацювало.",
+    "IGUI_STA_PryOpen_Success_4": "Легше легкого.",
+    "IGUI_STA_PryOpen_Success_5": "Магія лома!",
+    "IGUI_STA_PryOpen_Failure_1": "Марно... навіть не зрушило.",
+    "IGUI_STA_PryOpen_Failure_2": "Зачинено міцніше ніж банківський сейф.",
+    "IGUI_STA_PryOpen_Failure_3": "Ну ж бо...",
+    "IGUI_STA_PryOpen_Failure_4": "Цього разу не пощастило.",
+    "IGUI_STA_PryOpen_Failure_5": "Ця клята річ навіть не рухається.",
+    "IGUI_STA_PryOpen_Injury_1": "Пошкодив руку, знадобиться бинт.",
+    "IGUI_STA_PryOpen_Injury_2": "Ай, боляче.",
+    "IGUI_STA_PryOpen_Injury_3": "Ой, здається, порізався.",
+    "IGUI_STA_PryOpen_Injury_4": "Треба було бути обережнішим.",
+    "IGUI_STA_PryOpen_Injury_5": "Це залишить слід."
+}
