@@ -16,6 +16,6 @@
     "ContextMenu_STA_PryOpen_Vehicle_Door": "дверь",
     "ContextMenu_STA_PryOpen_Vehicle_Doors": "двери",
     "ContextMenu_STA_PryOpen_JobLabel": "Взламываю...",
-    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Нужен лом",
+    "ContextMenu_STA_PryOpen_Radial_NoCrowbar": "Нужна монтировка",
     "ContextMenu_STA_PryOpen_Radial_NoStrength": "Недостаточно силы"
 }
