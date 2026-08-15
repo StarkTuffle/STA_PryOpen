@@ -115,3 +115,8 @@ Version 1.16.7
 - Added sandbox option for soft minimum required strength
 - Added Korean translation (Thank you Hagaren)
 [ ------ ]
+[ Version 1.22.1 ]
+- Added Ukrainian translation (Thank you SilentSalo)
+- Updated Russian translation
+- Removed legacy logging code
+[ ------ ]
