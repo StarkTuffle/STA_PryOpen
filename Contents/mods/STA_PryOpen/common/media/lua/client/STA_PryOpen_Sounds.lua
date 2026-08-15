@@ -1,4 +1,3 @@
-local Log = require "STA_PryOpen_Log"
 local Config = require "STA_PryOpen_ModOptions"
 
 local Sounds = {}
@@ -32,7 +31,6 @@ local function getOutcomeSoundName(result, category)
         base = result and "BreakBarricadeMetal" or "CrowbarBreak"
     else
         base = result and "BreakBarricadePlank" or "CrowbarBreak"
-        Log.debug("Unexpected outcome, no category %s", category)
     end
     return base
 end
@@ -60,11 +58,10 @@ function Sounds.onServerCommand(module, command, args)
     if not args then return end
 
     local player = resolveLocalPlayer(args)
-    if not player then Log.warn("Player not found from args.") return end
+    if not player then return end
 
     local result = args.result
     local category = args.category
-    Log.debug("Outcome received: success=%s category=%s for local player=[%s]%s", tostring(result), category, tostring(player:getPlayerNum() or -1), player:getDisplayName())
 
     playOutcomeSound(player, result, category)
 end

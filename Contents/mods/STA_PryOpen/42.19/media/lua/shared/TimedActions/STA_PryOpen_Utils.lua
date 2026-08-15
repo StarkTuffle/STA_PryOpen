@@ -1,6 +1,4 @@
 local Utils = STA_PryOpen_Utils or {}
-local Log = require "STA_PryOpen_Log"
-Log.info("Module loaded: STA_PryOpen_Utils")
 
 -- Variables
 Utils.modID = "STA_PryOpen"
@@ -62,25 +60,18 @@ Utils.SandboxDefaults = {
 ---@param key string
 ---@return any
 local function getSandboxValue(key)
-    Log.trace("Utils.getSandboxValue invoked with key: %s", tostring(key))
     local moduleName = Utils.modID
-    Log.trace("moduleName set to %s", tostring(moduleName))
     if SandboxVars and SandboxVars[moduleName] and SandboxVars[moduleName][key] ~= nil then
-        Log.trace("Returning SandboxVars[%s][%s]", moduleName, key)
         return SandboxVars[moduleName][key]
     end
-    Log.trace("Returning nil")
     return nil
 end
 
 ---@param key string
 ---@return Boolean|nil
 function Utils.getSandboxBool(key)
-    Log.trace("Utils.getSandboxBool invoked with key: %s", tostring(key))
     local defaultVal = Utils.SandboxDefaults[key]
-    Log.trace("defaultVal set to %s", tostring(defaultVal))
     local val = getSandboxValue(key)
-    Log.trace("val set to %s", tostring(val))
     if val == nil then return type(defaultVal) == "boolean" and defaultVal or nil end
     if type(val) == "boolean" then return val end
     if type(val) == "number" then return val ~= 0 end
@@ -88,18 +79,14 @@ function Utils.getSandboxBool(key)
         local valLower = val:lower()
         return valLower == "true" or valLower =="1" or valLower == "yes" or valLower == "on"
     end
-    Log.trace("val not returned, returning defaultVal")
     return type(defaultVal) == "boolean" and defaultVal or nil
 end
 
 ---@param key string
 ---@return number|nil
 function Utils.getSandboxNum(key)
-    Log.trace("Utils.getSandboxNum invoked with key: %s", key)
     local defaultVal = Utils.SandboxDefaults[key]
-    Log.trace("defaultVal set to %s", tostring(defaultVal))
     local val = getSandboxValue(key)
-    Log.trace("val set to %s", tostring(val))
     if val == nil then return type(defaultVal) == "number" and defaultVal or nil end
     if type(val) == "number" then return val end
     if type(val) == "boolean" then return val and 1 or 0 end
@@ -107,14 +94,12 @@ function Utils.getSandboxNum(key)
         local num = tonumber(val)
         if num then return num end
     end
-    Log.trace("val not returned, returning defaultVal")
     return type(defaultVal) == "number" and defaultVal or nil
 end
 
 ---@param key String
 ---@return Integer
 function Utils.getSandboxInt(key)
-    Log.trace("Utils.getSandboxInt invoked with key: %s", key)
     local num = Utils.getSandboxNum(key)
     return math.floor(num or 0)
 end
@@ -122,11 +107,8 @@ end
 ---@param key string
 ---@return string | nil
 function Utils.getSandboxString(key)
-    Log.trace("Utils.getSandboxString invoked with key: %s", key)
     local defaultVal = Utils.SandboxDefaults[key]
-    Log.trace("defaultVal set to %s", tostring(defaultVal))
     local val = getSandboxValue(key)
-    Log.trace("val set to %s", tostring(val))
     if val == nil then return type(defaultVal) == "string" and defaultVal or nil end
     if type(val) == "string" then return val end
     if type(val) ~= "string" then return tostring(val) end
@@ -139,15 +121,12 @@ end
 ---@param key String
 ---@return any
 function Utils.getObjectModData(obj, key)
-    Log.debug("Utils.getObjectModData invoked with obj: %s key: %s", tostring(obj), tostring(key))
     local data = obj:getModData()
     if not data[Utils.modID] then data[Utils.modID] = {} end
     if data and data[Utils.modID] and data[Utils.modID][key] then
         local value = data[Utils.modID][key]
-        Log.trace("Key found; returning value: %s", tostring(value))
         return value
     end
-    Log.trace("Key not found; returning nil")
     return nil
 end
 
@@ -155,15 +134,12 @@ end
 ---@param key String
 ---@param value any
 function Utils.setObjectModData(obj, key, value)
-    Log.trace("Utils.setObjectModData invoked with obj: %s key: %s value: %s", tostring(obj), tostring(key), tostring(value))
     local data = obj:getModData()
-    if not data then Log.error("setObjectModData called with nil object; aborting") return end
+    if not data then print("setObjectModData called with nil object; aborting") return end
     if not data[Utils.modID] then
-        Log.trace("Mod Options Array not found; creating")
         data[Utils.modID] = {}
     end
     data[Utils.modID][key] = value
-    Log.debug("Set Mod Options key: %s to %s", tostring(key), tostring(value))
 end
 
 -- Math Functions
@@ -174,17 +150,14 @@ end
 function Utils.clamp(...)
     local args = { ... }
     if args[3] then
-        Log.trace("Utils.clamp invoked with args: x=%s min=%s max=%s", tostring(args[1]), tostring(args[2]), tostring(args[3]))
         if args[1] < args[2] then return args[2] end
         if args[1] > args[3] then return args[3] end
         return args[1]
     elseif args[2] then
-        Log.trace("Utils.clamp invoked with args: x=%s max=%s", tostring(args[1]), tostring(args[2]))
         if args[1] < 0 then return 0 end
         if args[1] > args[2] then return args[2] end
         return args[1]
     else
-        Log.trace("Utils.clamp invoked with args: x=%s", tostring(args[1]))
         if args[1] < 0 then return 0 end
         if args[1] > 1 then return 1 end
         return args[1]
@@ -435,7 +408,6 @@ end
 ---@param obj IsoThumpable
 ---@return string | nil
 function Utils.getWorldCategoryForObject(obj)
-    Log.debug("obj:%s", tostring(obj))
     if not obj then return end
     if instanceof(obj, "IsoWindow") then
         return "Window"
@@ -464,7 +436,6 @@ function Utils.findWorldTarget(worldObjects, playerObj)
     local o
     for i = 1, #worldObjects do
         o = worldObjects[i]
-        Log.debug("worldObject:%s", tostring(o))
         local category = Utils.getWorldCategoryForObject(o)
         if category and Utils.isPryableWorldObject(o) and not Utils.isBarricadedForPlayer(o, playerObj) then
             if Utils.isCategoryEnabled(category) then

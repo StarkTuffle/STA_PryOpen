@@ -1,7 +1,5 @@
 local Utils = require "STA_PryOpen_Utils"
-local Log = require "STA_PryOpen_Log"
 local ContextMenu = STA_PryOpen_ISContextMenu or {}
-Log.info("Module loaded: STA_PryOpen_ISContextMenu")
 ContextMenu.modID = "STA_PryOpen"
 
 -- Still jank
@@ -65,7 +63,6 @@ end
 ---@param type string
 ---@return nil
 function ContextMenu.onPrySelect(playerObj, target, category, type)
-    Log.debug("player:%s target:%s category:%s type:%s", tostring(playerObj), tostring(target), tostring(category), tostring(type))
     if not (playerObj and target and category and type) then return end
     if playerObj:isDead() or not Utils.isCategoryEnabled(category) then return end
 
@@ -80,11 +77,9 @@ function ContextMenu.onPrySelect(playerObj, target, category, type)
     end
 
     if #reasons > 0 then
-        Log.debug("Client select denied: %d disable reasons", #reasons)
         return
     end
 
-    Log.info("Queue TA: type=%s category=%s", type, category or "nil")
     if type == "World" then
         ---@cast target IsoThumpable
         if not Utils.isLockedWorldObject(target) or Utils.isBarricadedForPlayer(target, playerObj) then

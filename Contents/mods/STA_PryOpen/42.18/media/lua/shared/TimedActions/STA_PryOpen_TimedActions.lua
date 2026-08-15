@@ -1,6 +1,5 @@
 require "TimedActions/ISBaseTimedAction"
 local Utils = require "STA_PryOpen_Utils"
-local Log = require "STA_PryOpen_Log"
 
 STA_PryOpen_ISPryOpenAction = ISBaseTimedAction:derive("STA_PryOpen_ISPryOpenAction")
 
@@ -28,7 +27,6 @@ end
 
 function STA_PryOpen_ISPryOpenAction:getDuration()
     if self.character:isTimedActionInstant() then return 1 end
-    Log.debug("getDuration character:%s category:%s", tostring(self.character), tostring(self.category))
     return Utils.computePryTimeTicks(self.character, self.category)
 end
 
@@ -84,7 +82,6 @@ end
 
 function STA_PryOpen_ISPryOpenAction:start()
     local Config = require "STA_PryOpen_ModOptions"
-    Log.debug("TA start: type=%s category=%s", tostring(self.target.type), tostring(self.category))
 
     self:setActionAnim("RemoveBarricade")
     if self.type == "World" and self.category == "Window" then
@@ -128,24 +125,20 @@ function STA_PryOpen_ISPryOpenAction:complete()
         if not sq then return end
         local worldObjects = sq:getWorldObjects()
         if not worldObjects then return end
-        Log.debug("World target: sprite=%s cat=%s", tostring(obj:getSprite():getName()), self.category)
 
-        if not Utils.isCategoryEnabled(self.category) then Log.info("Denied: category disabled (%s)", self.category) return end
-        if not Utils.meetsStrengthRequirement(self.character, self.category) then Log.info("Denied: strength too low for %s", self.category) return end
-        if not Utils.findUsablePryTool(self.character) then Log.info("Denied: no crowbar") return end
-        if not Utils.isLockedWorldObject(obj) then Log.info("Denied: not locked") return end
-        if Utils.isBarricadedForPlayer(obj, self.character) then Log.info("Denied: is barricaded for player") return end
+        if not Utils.isCategoryEnabled(self.category) then return end
+        if not Utils.meetsStrengthRequirement(self.character, self.category) then return end
+        if not Utils.findUsablePryTool(self.character) then return end
+        if not Utils.isLockedWorldObject(obj) then return end
+        if Utils.isBarricadedForPlayer(obj, self.character) then return end
 
         local chance = Utils.clamp(Utils.computePrySuccessChance(self.character, self.category, self.crowbar))
-        Log.info("Roll: cat=%s chance=%.2f", self.category, chance)
 
         if self.category == "Window" then
             sq = obj:getIndoorSquare()
         else
             sq = obj:getOtherSideOfDoor(self.character)
             if not sq:getBuilding() then
-                Log.debug("Square for %s is outside; checking adjacent squares", self.category)
-
                 local cell = getCell()
                 local x,y,z = sq:getX(), sq:getY(), sq:getZ()
                 local offsets = {{1,0},{0,1},{0,-1},{-1,0}}
@@ -165,7 +158,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
         local injury = false
 
         if success then
-            Log.info("SUCCESS: %s unlocked @ %d,%d,%d", self.category, sq:getX(), sq:getY(), sq:getZ())
             if Utils.isCategoryEnabled("AlarmSuccess") then
                 if sq:getBuilding() then
                     sq:getBuilding():getDef():setAlarmed(false)
@@ -195,13 +187,11 @@ function STA_PryOpen_ISPryOpenAction:complete()
             end
             addSound(self.character, sq:getX(), sq:getY(), sq:getZ(), Utils.computeNoiseRadius(self.character)/2, 10)
         else
-            Log.info("FAIL: %s @ %d,%d,%d", self.category, sq:getX(), sq:getY(), sq:getZ())
             local fail = Utils.computeFailureChances(self.character)
 
             if instanceof(obj, "IsoWindow") then
                 local breakWindowChance = ZombRandFloat(0.0, 1.0)
                 local breakWindowDC = Utils.clamp(fail.PryChanceBreakWindow)
-                Log.info("Break Window Roll: chance=%.2f dc=%.2f", breakWindowChance, breakWindowDC)
                 if breakWindowChance <= breakWindowDC then
                     windowBroke = true
                     obj:smashWindow()
@@ -223,7 +213,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
 
                         local alarmChance = ZombRandFloat(0.0, 1.0)
                         local alarmDC = Utils.clamp(fail.PryChanceAlarm)
-                        Log.info("Alarm Roll: chance=%.2f dc=%.2f", alarmChance, fail.PryChanceAlarm)
 
                         if alarmChance <= alarmDC then
                             local sOpt = getSandboxOptions()
@@ -246,7 +235,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
             local bd = self.character:getBodyDamage()
             if bd then
                 local injChance = ZombRandFloat(0.0, 1.0)
-                Log.info("Injury Roll: chance=%.2f injL=%.2f injR=%.2f", injChance, injL, injL + injR)
                 if injChance <= injL then
                     if injChance <= (injL * scr) then
                         bd:getBodyPart(BodyPartType.Hand_L):setScratched(true, true)
@@ -256,7 +244,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
                         if windowBroke then bd:getBodyPart(BodyPartType.Hand_L):generateDeepShardWound()
                         else bd:getBodyPart(BodyPartType.Hand_L):generateDeepWound() end
                     else
-                        Log.debug("Injury sevarity chance unexpected. Roll: chance%.2f max%.2f", injChance, (injL * (cut + scr + dpw)))
                         bd:getBodyPart(BodyPartType.Hand_L):setAdditionalPain(30)
                     end
                     injury = true
@@ -269,7 +256,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
                         if windowBroke then bd:getBodyPart(BodyPartType.Hand_L):generateDeepShardWound()
                         else bd:getBodyPart(BodyPartType.Hand_R):generateDeepWound() end
                     else
-                        Log.debug("Injury sevarity chance unexpected. Roll: chance%.2f max%.2f", injChance, ((injL + injR) * (cut + scr + dpw)))
                         bd:getBodyPart(BodyPartType.Hand_R):setAdditionalPain(30)
                     end
                     injury = true
@@ -294,15 +280,12 @@ function STA_PryOpen_ISPryOpenAction:complete()
         local part = self.target
         local vehicle = part:getVehicle()
         if not (part and vehicle) then return end
-        Log.debug("Vehicle target: id=%s part=%s cat=%s", tostring(vehicle:getId()), tostring(part:getId()), self.category)
-
         if not Utils.isCategoryEnabled(self.category) then return end
         if not Utils.meetsStrengthRequirement(self.character, self.category) then return end
         if not Utils.findUsablePryTool(self.character) then return end
         if not part:getDoor() or not part:getDoor():isLocked() then return end
 
         local chance = Utils.clamp(Utils.computePrySuccessChance(self.character, self.category, self.crowbar))
-        Log.info("Roll: cat=%s chance=%.2f", self.category, chance)
 
         local vsq = vehicle:getSquare()
         if not vsq then return end
@@ -311,7 +294,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
         local injury = false
 
         if success then
-            Log.info("SUCCESS: Vehicle %s unlocked", tostring(part:getId()))
             if Utils.isCategoryEnabled("AlarmSuccess") then vehicle:setAlarmed(false) end
             if part:getDoor() then
                 part:getDoor():setLocked(false)
@@ -323,12 +305,10 @@ function STA_PryOpen_ISPryOpenAction:complete()
             self.character:getXp():AddXP(Perks.Mechanics, 3)
             addSound(self.character, vsq:getX(), vsq:getY(), vsq:getZ(), Utils.computeNoiseRadius(self.character)/2, 10)
         else
-            Log.info("FAIL: Vehicle %s unlocked", tostring(part:getId()))
             local fail = Utils.computeFailureChances(self.character)
 
             local breakLockChance = ZombRandFloat(0.0, 1.0)
             local breakLockDC = Utils.clamp(fail.PryChanceBreakVehicleLock)
-            Log.info("Break Lock Roll: chance=%.2f dc=%.2f", breakLockChance, breakLockDC)
             if breakLockChance <= breakLockDC then
                 if not part:getDoor():isLockBroken() then
                     part:getDoor():setLockBroken(true)
@@ -339,7 +319,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
             end
             local breakWindowChance = ZombRandFloat(0.0, 1.0)
             local breakWindowDC = Utils.clamp(fail.PryChanceBreakVehicleWindow)
-            Log.info("Break Window Roll: chance=%.2f dc=%.2f", breakWindowChance, breakWindowDC)
             if breakWindowChance <= breakWindowDC then
                 local window = part:getChildWindow()
                 if window then window = window:getWindow() end
@@ -351,7 +330,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
 
             local alarmChance = ZombRandFloat(0.0, 1.0)
             local alarmDC = Utils.clamp(fail.PryChanceAlarm)
-            Log.info("Alarm Roll: chance=%.2f dc=%.2f", alarmChance, alarmDC)
             if alarmChance <= alarmDC then
                 if Utils.isCategoryEnabled("AlarmForce") then
                     local alarmForced = Utils.getObjectModData(vehicle,"forcedAlarm")
@@ -371,7 +349,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
             local bd = self.character:getBodyDamage()
             if bd then
                 local injChance = ZombRandFloat(0.0, 1.0)
-                Log.info("Injury Roll: chance=%.2f injL=%.2f injR=%.2f", injChance, injL, injL + injR)
                 if injChance <= injL then
                     if injChance <= (injL * scr) then
                         bd:getBodyPart(BodyPartType.Hand_L):setScratched(true, true)
@@ -381,7 +358,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
                         if windowBroken then bd:getBodyPart(BodyPartType.Hand_L):generateDeepShardWound()
                         else bd:getBodyPart(BodyPartType.Hand_L):generateDeepWound() end
                     else
-                        Log.debug("Injury sevarity chance unexpected. Roll: chance%.2f max%.2f", injChance, (injL * (cut + scr + dpw)))
                         bd:getBodyPart(BodyPartType.Hand_L):setAdditionalPain(30)
                     end
                 elseif injChance > injL and injChance <= injL + injR then
@@ -393,7 +369,6 @@ function STA_PryOpen_ISPryOpenAction:complete()
                         if windowBroken then bd:getBodyPart(BodyPartType.Hand_L):generateDeepShardWound()
                         else bd:getBodyPart(BodyPartType.Hand_R):generateDeepWound() end
                     else
-                        Log.debug("Injury sevarity chance unexpected. Roll: chance%.2f max%.2f", injChance, ((injL + injR) * (cut + scr + dpw)))
                         bd:getBodyPart(BodyPartType.Hand_R):setAdditionalPain(30)
                     end
                 end
@@ -441,7 +416,6 @@ end
 ---@param type string
 ---@return ISBaseTimedAction
 function STA_PryOpen_ISPryOpenAction:new(character, target, crowbar, category, type)
-    Log.debug("character:%s target:%s crowbar:%s category:%s type:%s", tostring(character), tostring(target), tostring(crowbar), category, type)
     local o = ISBaseTimedAction.new(self, character)
     o.character = character
     o.target = target

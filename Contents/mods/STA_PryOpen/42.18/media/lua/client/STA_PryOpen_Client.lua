@@ -1,4 +1,3 @@
-local Log = require "STA_PryOpen_Log"
 local Config = require "STA_PryOpen_ModOptions"
 local Utils = require "STA_PryOpen_Utils"
 
@@ -24,13 +23,12 @@ local function resolveLocalPlayer(args)
 end
 
 function Client.onServerCommand(module, command, args)
-    Log.info("Client params: module=%s command=%s args=%s", tostring(module), tostring(command), tostring(args))
     if module ~= Client.modID then return end
     if not command then return end
     if not args then return end
 
     local playerObj = resolveLocalPlayer(args)
-    if not playerObj then Log.warn("Player not found from args.") return end
+    if not playerObj then print("Player not found from args.") return end
 
     if command == "SayOutcome" then
         local message = args.message
@@ -44,7 +42,7 @@ function Client.onServerCommand(module, command, args)
     if command == "DoClientOpenAnim" then
         local sq = getCell():getGridSquare(args.x, args.y, args.z)
         local playerObj = resolveLocalPlayer(args)
-        if not playerObj then Log.warn("Player not found from args.") return end
+        if not playerObj then print("Player not found from args.") return end
         if sq then
             local objs = sq:getObjects()
             for i = 0, objs:size() - 1 do
